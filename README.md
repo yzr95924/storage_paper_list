@@ -4,7 +4,7 @@ In this repo, it records some paper related to storage system, including **Data 
 
 | Type                  | Paper Amount |
 | --------------------- | ------------ |
-| A. Data Deduplication | 45           |
+| A. Data Deduplication | 52           |
 | B. Erasure Coding     | 37           |
 | C. Security           | 12           |
 | D. Other              | 7            |
@@ -15,7 +15,7 @@ In this repo, it records some paper related to storage system, including **Data 
 
 ### Summary
 1. *99 Deduplication Problems*----HotStorage'16
-2. *A Comprehensive Study of the Past, Present, and Future od Data Deduplication*----Proceedings of the IEEE'16 
+2. *A Comprehensive Study of the Past, Present, and Future on Data Deduplication*----Proceedings of the IEEE'16 
 3. *A Survey of Secure Data Deduplication Schemes for Cloud Storage Systems*----ACM Computing Surveys'17
 4. *A Survey of Classification of Storage Deduplication Systems*----ACM Computing Surveys'14
 
@@ -27,7 +27,7 @@ In this repo, it records some paper related to storage system, including **Data 
 
 ### Deduplication System Design
 1. *Avoiding the Disk Bottleneck in the Data Domain Deduplication File System*----FAST'08
-2. *dedupv1: Improving Deduplication Throughput using Splid State Drives (SSD)*----MSST'10
+2. *dedupv1: Improving Deduplication Throughput using Spoid State Drives (SSD)*----MSST'10
 3. *Extreme Binning: Scalable, Parallel Deduplication for Chunk-based File Backup*----MASCOTS'09
 4. *Sparse Indexing: Large Scale, Inline Deduplication Using Sampling and Locality*----FAST'09
 5. *Building a High-performance Deduplication System*----USENIX ATC'11
@@ -38,6 +38,7 @@ In this repo, it records some paper related to storage system, including **Data 
 2. *ALACC: Accelerating Restore Performance of Data Deduplication Systems Using Adaptive Look-Ahead Window Assisted Chunk Caching*----FAST'18
 3. *Reducing Impact of Data Fragmentation Caused by In-line Deduplication*----SYSTOR'12
 4. *Assuring Demanded Read Performance of Data Deduplication Storage with Backup Datasets*----MASCOTS'12
+5. *Accelerating Restore and Garbage Collection in Deduplication-based Backup System via Exploiting Historical Information*----USENIX ATC'14
 
 ### Secure Deduplication
 1. *Convergent Dispersal: Toward Storage-Efficient Security in a Cloud-of-Clouds*----HotStorage'14
@@ -52,6 +53,8 @@ In this repo, it records some paper related to storage system, including **Data 
 10. *SecDep: A User-Aware Efficient Fine-Grained Secure Deduplication Scheme with Multi-Level Key Management*----MSST'15
 11. *Message-Locked Encryption and Secure Deduplication*----EuroCrypt'13
 12. *Proofs of Ownership in Remote Storage System*----CCS'11
+13. *Tapping the Potential: Secure Chunk-based Deduplication of Encrypted Data for Cloud Backup*----CNS'18
+14. *A Bandwodth-Efficient Middleware for Encrypted Deduplication*----DSC'18
 
 ### Metadata Management
 1. *Metadedup: Deduplicating Metadata in Encrypted Deduplication via Indirection*----MSST'19
@@ -66,6 +69,7 @@ In this repo, it records some paper related to storage system, including **Data 
 2. *Estimation of Deduplication Ratios in Large Data Sets*----MSST'12
 3. *Sketching Volume Capacities in Deduplicated Storage*----FAST'19
 4. *Estimating Duplication by Content-based Sampling*----USENIX ATC'13
+5. *Content-aware Load Balancing for Distributed Backup*----LISA'11
 
 ### Post-Deduplication: Data Compression
 1. *Finesse: Fine-Grained Feature Locality based Fast Resemblance Detection for Post-Deduplication Delta Compression*----FAST'19
@@ -172,3 +176,6 @@ In this repo, it records some paper related to storage system, including **Data 
 2. *The Hadoop Distributed File System*----MSST'10
 3. *RADOS: A Scalable, Reliable Storage Service for Petabyte-scale Storage Clusters*----PDSW'07
 4. *CRUSH: Controlled, Scalable, Decentralized Placement of Replicated Data*----SC'06
+
+### Hash
+1. *Compare-by-Hash: A Reasoned Analysis*----USENIX ATC'06
