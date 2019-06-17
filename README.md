@@ -32,6 +32,7 @@ In this repo, it records some paper related to storage system, including **Data 
 4. *Sparse Indexing: Large Scale, Inline Deduplication Using Sampling and Locality*----FAST'09
 5. *Building a High-performance Deduplication System*----USENIX ATC'11
 6. *Primary Data Deduplication - Large Scale Study and System Design*----USENIX ATC'12
+7. *Storage Efficiency Opportunities and Analysis for Video Repositories*----HotStorage'15
 
 ### Restore Performance
 1. *RevDedup: A Reverse Deduplication Storage System Optimized for Reads to Latest Backups*----APSys'13
@@ -39,6 +40,7 @@ In this repo, it records some paper related to storage system, including **Data 
 3. *Reducing Impact of Data Fragmentation Caused by In-line Deduplication*----SYSTOR'12
 4. *Assuring Demanded Read Performance of Data Deduplication Storage with Backup Datasets*----MASCOTS'12
 5. *Accelerating Restore and Garbage Collection in Deduplication-based Backup System via Exploiting Historical Information*----USENIX ATC'14
+6. *Sliding Look-Back Window Assisted Data Chunk Rewriting for Improving Deduplication Restore Performance*----FAST'19
 
 ### Secure Deduplication
 1. *Convergent Dispersal: Toward Storage-Efficient Security in a Cloud-of-Clouds*----HotStorage'14
@@ -87,6 +89,7 @@ In this repo, it records some paper related to storage system, including **Data 
 4. *Delta: a Deduplication-inspired Fast Delta Compression Approach*----IFIP Performance'14
 5. *P-dedupe: Exploiting Parallelism in Data Deduplication System*----NAS'12
 6. *MUCH: Multi-threaded Content-Based File Chunking*----TC'15
+7. *Multi-Level Comparison of Data Deduplication in a Backup Scenario*----SYSTOR'09
 
 
 ### Deduplication Reliability
