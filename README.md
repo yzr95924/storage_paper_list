@@ -14,7 +14,7 @@ In this repo, it records some paper related to storage system, including **Data 
 ## A. Data Deduplication
 
 ### Summary
-1. *99 Deduplication Problems*----HotStorage'16
+1. *99 Deduplication Problems*----HotStorage'16 [summary](https://yzr95924.github.io/paper_summary/99DeduplicationProblem-HotStorage'16.html)
 2. *A Comprehensive Study of the Past, Present, and Future on Data Deduplication*----Proceedings of the IEEE'16 
 3. *A Survey of Secure Data Deduplication Schemes for Cloud Storage Systems*----ACM Computing Surveys'17
 4. *A Survey of Classification of Storage Deduplication Systems*----ACM Computing Surveys'14
@@ -90,6 +90,7 @@ In this repo, it records some paper related to storage system, including **Data 
 5. *P-dedupe: Exploiting Parallelism in Data Deduplication System*----NAS'12
 6. *MUCH: Multi-threaded Content-Based File Chunking*----TC'15
 7. *Multi-Level Comparison of Data Deduplication in a Backup Scenario*----SYSTOR'09
+8. *A Framework for Analyzing the Improving Content-Based Chunking Algorithms*----HP Technique Report'05
 
 
 ### Deduplication Reliability
@@ -170,6 +171,8 @@ In this repo, it records some paper related to storage system, including **Data 
 ### Multi-Cloud System
 1. *Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways*----SYSTOR'19
 2. *SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Cloud Services*----SOSP'13
+3. *CosTLO: Cost-Effective Redundancy for Lower Latency Variance on Cloud Storage Service*----NSDI'15
+4. *A Day Late and a Dollar Short: The Case for Research on Cloud Billing Systems*----HotCloud'14
 
 ### New PAXOS 
 1. *In Search of an Understandable Consensus Algorithm*----USENIX ATC'14
@@ -182,3 +185,6 @@ In this repo, it records some paper related to storage system, including **Data 
 
 ### Hash
 1. *Compare-by-Hash: A Reasoned Analysis*----USENIX ATC'06
+
+### Streaming Process
+1. *A Lock-Free, Cache-Efficient Multi-Core Synchronization Mechanism for Line-Rate Network Traffic Monitoring*----IPDPS'10
