@@ -1,10 +1,10 @@
 # Storage System Paper List
-In this repo, it records some paper related to storage system, including **Data Deduplication** (aka, dedup), **Erasure Coding** (aka, EC), general **Distributed Storage System** (aka, DSS) and other related topics (i.e., Network Security.....), updating~
+In this repo, it records some paper related to storage system, including **Data Deduplication** (aka, dedup), **Erasure Coding** (aka, EC), general **Distributed Storage System** (aka, DSS) and other related topics (i.e., Network Security.....), updating from time to time~
 [TOC]
 
 | Type                  | Paper Amount |
 | --------------------- | ------------ |
-| A. Data Deduplication | 52           |
+| A. Data Deduplication | 63           |
 | B. Erasure Coding     | 37           |
 | C. Security           | 12           |
 | D. Other              | 7            |
@@ -14,25 +14,27 @@ In this repo, it records some paper related to storage system, including **Data 
 ## A. Data Deduplication
 
 ### Summary
-1. *99 Deduplication Problems*----HotStorage'16 [summary](https://yzr95924.github.io/paper_summary/99DeduplicationProblem-HotStorage'16.html)
-2. *A Comprehensive Study of the Past, Present, and Future on Data Deduplication*----Proceedings of the IEEE'16 
-3. *A Survey of Secure Data Deduplication Schemes for Cloud Storage Systems*----ACM Computing Surveys'17
-4. *A Survey of Classification of Storage Deduplication Systems*----ACM Computing Surveys'14
-
+1. *99 Deduplication Problems*----HotStorage'16 ([link](https://pdfs.semanticscholar.org/bd54/6dda50541489ff23fbc1e154dea50d911a43.pdf)) ([summary](https://yzr95924.github.io/paper_summary/99DeduplicationProblem-HotStorage'16.html))
+2. *A Comprehensive Study of the Past, Present, and Future on Data Deduplication*----Proceedings of the IEEE'16 ([link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7529062))
+3. *A Survey of Secure Data Deduplication Schemes for Cloud Storage Systems*----ACM Computing Surveys'17 ([link](https://dl.acm.org/citation.cfm?id=3017428))
+4. *A Survey of Classification of Storage Deduplication Systems*----ACM Computing Surveys'14 ([link](https://dl.acm.org/citation.cfm?id=2611778))
+5. *Understanding Data Deduplication Ratios*----SNIA'08 ([link](https://www.snia.org/sites/default/files/Understanding_Data_Deduplication_Ratios-20080718.pdf))
 
 ### Workload Analysis
-1. *Characteristics of Backup Workloads in Production Systems*----FAST'12
-2. *A Study of Practical Deduplication*----FAST'11
-3. *A Long-Term User-Centric Analysis of Deduplication Patterns*----MSST'16
+1. *Characteristics of Backup Workloads in Production Systems*----FAST'12 ([link](http://www.usenix.net/legacy/events/fast12/tech/full_papers/Wallace2-9-12.pdf))
+2. *A Study of Practical Deduplication*----FAST'11 ([link](https://www.usenix.org/legacy/event/fast11/tech/full_papers/Meyer.pdf))
+3. *A Long-Term User-Centric Analysis of Deduplication Patterns*----MSST'16 ([link](https://www.fsl.cs.sunysb.edu/docs/msst16dedup-study/data-set-analysis.pdf))
 
 ### Deduplication System Design
 1. *Avoiding the Disk Bottleneck in the Data Domain Deduplication File System*----FAST'08  [summary](https://yzr95924.github.io/paper_summary/DiskBottleneck-FAST'08.html)
-2. *dedupv1: Improving Deduplication Throughput using Spoid State Drives (SSD)*----MSST'10 [summary](https://yzr95924.github.io/paper_summary/dedupv1-MSST'10.html)
+2. *dedupv1: Improving Deduplication Throughput using Solid State Drives (SSD)*----MSST'10 [summary](https://yzr95924.github.io/paper_summary/dedupv1-MSST'10.html)
 3. *Extreme Binning: Scalable, Parallel Deduplication for Chunk-based File Backup*----MASCOTS'09
 4. *Sparse Indexing: Large Scale, Inline Deduplication Using Sampling and Locality*----FAST'09 [summary](yzr95924.github.io/paper_summary/SparseIndex-FAST'09.html)
 5. *Building a High-performance Deduplication System*----USENIX ATC'11
 6. *Primary Data Deduplication - Large Scale Study and System Design*----USENIX ATC'12
 7. *Storage Efficiency Opportunities and Analysis for Video Repositories*----HotStorage'15
+8. *Venti: A New Approach to Archival Storage*----FAST'02 ([link](https://www.usenix.org/legacy/publications/library/proceedings/fast02/quinlan/quinlan.pdf))
+9. *ChunkStash: Speeding up Inline Storage Deduplication using Flash Memory*----USENIX ATC'10 ([link](https://www.usenix.org/legacy/events/atc10/tech/full_papers/Debnath.pdf)) 
 
 ### Restore Performance
 1. *RevDedup: A Reverse Deduplication Storage System Optimized for Reads to Latest Backups*----APSys'13 [summary](https://yzr95924.github.io/paper_summary/RevDedup-APSys'13.html)
@@ -55,19 +57,31 @@ In this repo, it records some paper related to storage system, including **Data 
 9. *Message-Locked Encryption and Secure Deduplication*----EuroCrypt'13
 10. *Proofs of Ownership in Remote Storage System*----CCS'11
 11. *Tapping the Potential: Secure Chunk-based Deduplication of Encrypted Data for Cloud Backup*----CNS'18 [summary](https://yzr95924.github.io/paper_summary/TappingPotential-CNS'18.html)
-12. *A Bandwodth-Efficient Middleware for Encrypted Deduplication*----DSC'18 [summary](https://yzr95924.github.io/paper_summary/UWare-DSC'18.html)
+12. *A Bandwidth-Efficient Middleware for Encrypted Deduplication*----DSC'18 [summary](https://yzr95924.github.io/paper_summary/UWare-DSC'18.html)
+13. *Bloom Filter Based Privacy Preserving Deduplication System*----Springer International Conference on Security & Privacy'19 ([link](https://link.springer.com/chapter/10.1007/978-981-13-7561-3_2)) [summary](https://yzr95924.github.io/paper_summary/BloomFilterDedup-ICSP'19.html)
+14. *Enhanced Secure Thresholded Data Deduplication Scheme for Cloud Storage*----TDSC'16 ([link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7553458)) [summary](https://yzr95924.github.io/paper_summary/EnhancedThreshold-TDSC'16.html)
+15. *Transparent Data Deduplication in the Cloud*----CCS'15 ([link](http://www.ghassankarame.com/dedup.pdf)) [summary](https://yzr95924.github.io/paper_summary/ClearBox-CCS'15.html)
+16. *Secure Deduplication of Encrypted Data without Additional Independent Servers*----CCS'15 ([link](https://eprint.iacr.org/2015/455.pdf)) [summary](https://yzr95924.github.io/paper_summary/IndependentServer-CCS'15.html)
+17. *Fast and Secure Laptop Backups with Encrypted Deduplication*----LISA'10 ([link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.368.3092&rep=rep1&type=pdf))
 
 ### Metadata Management
 1. *Metadedup: Deduplicating Metadata in Encrypted Deduplication via Indirection*----MSST'19
 2. *Rekeying for Encrypted Deduplication Storage*----DSN'16
 3. *File Recipe Compression in Data Deduplication Systems*----FAST'13 [summary](https://yzr95924.github.io/paper_summary/FileRecipeCompression-FAST'13.html)
-4. *LIPA: A Learning-based Indexing and Prefetching Approach for Data Deduplication*----MSST'19
-5. *Metadata Considered Harmful ... to Deduplication*----HotStorage'15 [summary](https://yzr95924.github.io/paper_summary/MetadataHarmful-HotStorage'15.html)
+4. *Metadata Considered Harmful ... to Deduplication*----HotStorage'15 [summary](https://yzr95924.github.io/paper_summary/MetadataHarmful-HotStorage'15.html)
 
+
+### Indexing & Caching
+1. *LIPA: A Learning-based Indexing and Prefetching Approach for Data Deduplication*----MSST'19 ([link](http://storageconference.us/2019/Research/LIPA.pdf)) [summary](https://yzr95924.github.io/paper_summary/LIPA-MSST'19.html)
+2. *Lazy Exact Deduplication*----MSST'16 
+3. *MAD2: A Scalable High-throughput Exact Deduplication Approach for Network Backup Services*----MSST'10
+4. *Block Locality Caching for Data Deduplication*----SYSTOR'13 ([link](https://dl.acm.org/citation.cfm?id=2485748))
+5. *HANDS: A Heuristically Arranged Non-Backup In-line Deduplication System*----ICDE'13 ([link](https://www.ssrc.ucsc.edu/Papers/ssrctr-12-03.pdf))
 
 ### Deduplication Estimation
-1. *Estimating Unseen Deduplication - from Theory to Practice*----FAST'16 [summary](https://yzr95924.github.io/paper_summary/HintsDeduplication-FAST'16.html)
-2. *Estimation of Deduplication Ratios in Large Data Sets*----MSST'12
+
+1. *Estimating Unseen Deduplication - from Theory to Practice*----FAST'16 ([link](https://www.usenix.org/system/files/conference/fast16/fast16-papers-harnik.pdf)) [summary](https://yzr95924.github.io/paper_summary/HintsDeduplication-FAST'16.html)
+2. *Estimation of Deduplication Ratios in Large Data Sets*----MSST'12 ([link](http://www.storageconference.us/2012/Papers/17.Deduplication.Estimation.pdf))
 3. *Sketching Volume Capacities in Deduplicated Storage*----FAST'19
 4. *Estimating Duplication by Content-based Sampling*----USENIX ATC'13 [summary](https://yzr95924.github.io/paper_summary/ContentBasedSampling-ATC'13.html)
 5. *Content-aware Load Balancing for Distributed Backup*----LISA'11
@@ -95,6 +109,9 @@ In this repo, it records some paper related to storage system, including **Data 
 ### Deduplication Reliability
 1. *A Simulation Analysis of Redundancy and Reliability in Primary Storage Deduplication*----TC'18
 2. *A Simulation Analysis of Reliability in Primary Storage Deduplication*----IISWC'16
+
+### Cache Deduplication
+1. *CDAC: Content-Driven Deduplication-Aware Storage Cache*----MSST'19 ([link](http://storageconference.us/2019/Research/CDAC.pdf))
 
 
 ## B. Erasure Coding
