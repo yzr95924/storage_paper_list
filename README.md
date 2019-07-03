@@ -2,12 +2,12 @@
 In this repo, it records some paper related to storage system, including **Data Deduplication** (aka, dedup), **Erasure Coding** (aka, EC), general **Distributed Storage System** (aka, DSS) and other related topics (i.e., Network Security.....), updating from time to time~
 [TOC]
 
-| Type                  | Paper Amount |
-| --------------------- | ------------ |
-| A. Data Deduplication | 63           |
-| B. Erasure Coding     | 37           |
-| C. Security           | 12           |
-| D. Other              | 7            |
+| Type                    | Paper Amount |
+| ----------------------- | ------------ |
+| A. Data Deduplication   | 71           |
+| B. Erasure Coding       | 37           |
+| C. Security and Privacy | 12           |
+| D. Other                | 7            |
 
 
 
@@ -66,7 +66,7 @@ In this repo, it records some paper related to storage system, including **Data 
 
 ### Metadata Management
 1. *Metadedup: Deduplicating Metadata in Encrypted Deduplication via Indirection*----MSST'19
-2. *Rekeying for Encrypted Deduplication Storage*----DSN'16
+2. *Rekeying for Encrypted Deduplication Storage*----DSN'16 ([link](http://adslab.cse.cuhk.edu.hk/pubs/dsn16reed.pdf))
 3. *File Recipe Compression in Data Deduplication Systems*----FAST'13 [summary](https://yzr95924.github.io/paper_summary/FileRecipeCompression-FAST'13.html)
 4. *Metadata Considered Harmful ... to Deduplication*----HotStorage'15 [summary](https://yzr95924.github.io/paper_summary/MetadataHarmful-HotStorage'15.html)
 
@@ -81,7 +81,7 @@ In this repo, it records some paper related to storage system, including **Data 
 ### Deduplication Estimation
 
 1. *Estimating Unseen Deduplication - from Theory to Practice*----FAST'16 ([link](https://www.usenix.org/system/files/conference/fast16/fast16-papers-harnik.pdf)) [summary](https://yzr95924.github.io/paper_summary/HintsDeduplication-FAST'16.html)
-2. *Estimation of Deduplication Ratios in Large Data Sets*----MSST'12 ([link](http://www.storageconference.us/2012/Papers/17.Deduplication.Estimation.pdf))
+2. *Estimation of Deduplication Ratios in Large Data Sets*----MSST'12 ([link](http://www.storageconference.us/2012/Papers/17.Deduplication.Estimation.pdf)) [summary](https://yzr95924.github.io/paper_summary/EstimateDedupRatio-MSST'12.html)
 3. *Sketching Volume Capacities in Deduplicated Storage*----FAST'19
 4. *Estimating Duplication by Content-based Sampling*----USENIX ATC'13 [summary](https://yzr95924.github.io/paper_summary/ContentBasedSampling-ATC'13.html)
 5. *Content-aware Load Balancing for Distributed Backup*----LISA'11
