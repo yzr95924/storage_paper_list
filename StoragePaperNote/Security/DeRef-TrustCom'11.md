@@ -60,7 +60,7 @@ if $k$ is small, then the browser cannot surely tell if a $x_i$ is being configu
 For (2):
 Use the potentially matched scopes returned by hash checking as inputs, and conduct blind checking
 > follow the blind-RSA, and send the blinded hash of $y_i$ to the website
-> the website signs and returns the hash of blined hash 
+> the website signs and returns the hash of blinded hash 
 
 - Rationale 
 In blind checking, the browser needs to take a round trip to send every potentially matched scope to the website and have the website sign the scope.

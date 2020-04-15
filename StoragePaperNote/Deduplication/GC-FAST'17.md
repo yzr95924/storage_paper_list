@@ -37,36 +37,47 @@ Every file has metadata overhead to be processed when enumerating a file, and fo
 While sequentially written files tend to have high locality of $L_p$ chunks, creating a new file from incremental changes harms locality as enumeration has to jump among branches of the $L_p$ tree.
 
 - Original Logical GC
-1. **Enumeration**: To identify the live chunks, it enumerates all of the files referenced from the root ($L_1$ to $L_6$ chunks).
+1. **Enumeration**: To identify the live chunks, it enumerates all of the files referenced from the root ($L_1$ to $L_6$ chunks). **Depth-first** walk and mark live chunks.
 > record the fingerprints for live files in the **Live Bloom Filter**.
 > track the most recent instance of each chunk in the presence of duplicates in the **Live Instance Bloom Filter**.
 
 2. **Filter**: Check each container via iterating through the container metadata region, clean on those where the most space can be reclaimed with the least effort.
 > liveness of the container: the number of live fingerprints divided by the total number of fingerprints in the containers.
 
-3. **Copy**: new containers are formed from live chunks copied out of previous containers. 
+3. **Select**: select best containers to compact. 
 
-**Memory optimization**: 
-Only consider fingerprints that match the **sampling criteria** before inserting into the Bloom filters. (pre-enumeration)
-> create a Candidate Bloom Filter 
-> only adds live fingerprints to the Live Bloom Filter if the fingerprint is in the Candidate Bloom Filter.
+4. **Copy**: new containers are formed from live chunks copied out of previous containers. 
 
 - Physical GC
-  A new method of enumeration identifies live chunks from **containers rather than by iterating through each file**.
-> via using perfect hashing
+Uses **breadth-first** walk instead of per-file depth-first walk during enumeration.
+
+A new method of enumeration identifies live chunks from **containers rather than by iterating through each file**.
+> via using perfect hashing, use less memory
+> using PHV to store $L_p$ for assisting breadth-first walk.
 
 1. **Analysis**: create the PH function by analyzing the fingerprints in the on-disk index. 
 > unique mapping from fingerprint to offset in a PHV. (4 bits per fingerprint)
 
 2. **Enumeration**: Unlike LGC, instead of walking the file tree structure, it performs a series of sequential container scans.
 
-3. **Filter, select, copy**: 
+3. **Filter, select, copy**
+
+- Physical GC+
+Replace Bloom filter with Perfect Hash vector for tracking live and dead chunks.
+> in analysis phase build two perfect hash vectors.
 
 
 ### Implementation and Evaluation
 - Evaluation
-1. Standard workloads
-2. Problematic workloads
+Comparison of GC runs for systems upgraded from LGC to PGC
+> 1. Standard workloads
+> 2. Problematic workloads
+
+1. GC on different platforms
+> GC duration 
+
+For high TC workloads, PGC improved from LGC up to 20x
+For high file count workload, PGC improved over LGC by 7x
 
 ## 2. Strength (Contributions of the paper)
 1. It mentions two approaches to garbage collection in a deduplicating storage system.
@@ -83,3 +94,9 @@ Only consider fingerprints that match the **sampling criteria** before inserting
 2. This paper mentions two trends in deduplication system.
 > 1. the increase in the file count. (treating it more like primary storage than backup)
 > 2. deduplication rate goes up (more frequent point-in-time backups)
+
+
+3. For the benefits and costs of physical enumeration
+Pro: it can perform sequential scan of containers on disk 
+Con: extra analysis cost doesn't help traditional workloads
+
