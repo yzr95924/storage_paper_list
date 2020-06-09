@@ -90,13 +90,13 @@ Two comparisons:
 2. threshold = 1: exact deduplication
 
 1. Deduplication ratio vs. threshold
-thresold increases, the deduplication ratio drops
+threshold increases, the deduplication ratio drops
 2. Disk fragmentation vs. threshold
-thresold increases, fragmentation decreases
+threshold increases, fragmentation decreases
 3. client read response time vs. threshold
 same trend as disk fragmentation
 4. CPU utilization vs. threshold
-utilization increases sightly with the threshold
+utilization increases slightly with the threshold
 iDedup algorithm has little impacts on the overall utilization 
 5. Buffer cache hit rate vs. dedup-metadata cache size 
 
