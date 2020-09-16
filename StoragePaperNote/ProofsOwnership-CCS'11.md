@@ -10,7 +10,7 @@ Proofs of Ownership in Remote Storage Systems
 
 ## 1. Summary
 ### Motivation of this paper
-Client-side dediplication allows an attacker to gain access to arbitrary-size files of other users based on a very small hash signatures of these file.
+Client-side deduplication allows an attacker to gain access to arbitrary-size files of other users based on a very small hash signatures of these file.
 To overcome it, it introduces the notion of proofs-of-ownership (PoWs), which lets a client efficiently prove to a server that that the client holds a file, rather than just some short information about it.
 
 This paper only focuses on **file-level** deduplication.
