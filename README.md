@@ -66,7 +66,7 @@ In this repo, it records some paper related to storage system, including **Data 
 ### Secure Deduplication
 1. *Convergent Dispersal: Toward Storage-Efficient Security in a Cloud-of-Clouds*----HotStorage'14 ([link](https://www.cse.cuhk.edu.hk/~pclee/www/pubs/hotstorage14.pdf)) [summary](https://yzr95924.github.io/paper_summary/CAONT-RS-HotStorage'14.html)
 2. *CDStore: Toward Reliable, Secure, and Cost-Efficient Cloud Storage via Convergent Dispersal*----USENIX ATC'15 ([link](https://www.usenix.org/system/files/conference/atc15/atc15-paper-li-mingqiang.pdf)) [summary](https://yzr95924.github.io/paper_summary/CDStore-ATC'15.html)
-3. *Information Leakage in Encrypted Deduplication via Frequency Analysis*----DSN'17
+3. *Information Leakage in Encrypted Deduplication via Frequency Analysis*----DSN'17 ([link](https://www.cse.cuhk.edu.hk/~pclee/www/pubs/dsn17.pdf))
 4. *DupLESS: Server-Aided Encryption for Deduplicated Storage*----USENIX Security'13 ([link](https://eprint.iacr.org/2013/429.pdf)) [summary](https://yzr95924.github.io/paper_summary/DupLESS-Security'13.html)
 5. *Side Channels in Cloud Services, the Case of Deduplication in Cloud Storage*----S&P'10 ([link](http://www.pinkas.net/PAPERS/hps.pdf)) [summary](https://yzr95924.github.io/paper_summary/SideChannel-S&P'10.html)
 6. *Side Channels in Deduplication: Trade-offs between Leakage and Efficiency*----AsiaCCS'17 ([link](https://dl.acm.org/doi/abs/10.1145/3052973.3053019)) [summary](https://yzr95924.github.io/paper_summary/SideChannelTradeOffs-AsiaCCS'17.html)
@@ -141,6 +141,7 @@ In this repo, it records some paper related to storage system, including **Data 
 7. *MUCH: Multi-threaded Content-Based File Chunking*----TC'15
 8. *Multi-Level Comparison of Data Deduplication in a Backup Scenario*----SYSTOR'09
 9. *A Framework for Analyzing the Improving Content-Based Chunking Algorithms*----HP Technique Report'05
+10. *FastCDC: a Fast and Efficient Content-Defined Chunking Approach for Data Deduplication*----USENIX ATC'16 ([link](https://www.usenix.org/system/files/conference/atc16/atc16-paper-xia.pdf)) [summary](https://yzr95924.github.io/paper_summary/FastCDC-ATC'16.html)
 
 ### Cache Deduplication
 
@@ -149,11 +150,12 @@ In this repo, it records some paper related to storage system, including **Data 
 3. *Nitro: A Capacity-Optimized SSD Cache for Primary Storage*----USENIX ATC'14 ([link](https://www.usenix.org/system/files/conference/atc14/atc14-paper-li_cheng_nitro.pdf))
 
 ### Benchmark
+
 1. *SDGen: Mimicking Datasets for Content Generation in Storage Benchmarks*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-gracia-tinedo.pdf))
 
 ### Garbage Collection
 
-1. *Memory Efficient Sanitization of a Deduplicated Storage System*----FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final100_0.pdf))
+1. *Memory Efficient Sanitization of a Deduplicated Storage System*----FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final100_0.pdf)) [summary](https://yzr95924.github.io/paper_summary/MemorySanitization-FAST'13.html)
 2. *Accelerating Restore and Garbage Collection in Deduplication-based Backup System via Exploiting Historical Information*----USENIX ATC'14 ([link](https://pdfs.semanticscholar.org/9b8d/a007a6801c9f96784dc7bc839794cb0db3ad.pdf)) [summary]( https://yzr95924.github.io/paper_summary/AcceleratingRestore-ATC'14.html )
 3. The Logic of Physical Garbage Collection in Deduplicating Storage----FAST'17 ([link](https://www.usenix.org/system/files/conference/fast17/fast17-douglis.pdf))
 4. Concurrent Deletion in a Distributed Content-addressable Storage System with Global Deduplication----FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final91.pdf))
@@ -223,11 +225,12 @@ In this repo, it records some paper related to storage system, including **Data 
 3. *Latency Reduction and Load Balancing in Coded Storage Systems*----SoCC'17
 
 ## C. Security
+
 ### Survey
 1. *A Survey on Systems Security Metrics*----ACM Computing Surveys'16
 
 ### Secret Sharing
-1. *How to Best Share a Big Secret*----SYSTOR'18
+1. *How to Best Share a Big Secret*----SYSTOR'18 ([link](http://www.systor.org/2018/pdf/systor18-24.pdf)) [summary](https://yzr95924.github.io/paper_summary/ShareBigSecret-SYSTOR'18.html)
 2. *AONT-RS: Blending Security and Performance in Dispersed Storage Systems*----FAST'11
 3. *Secure Deletion for a Versioning File System*----FAST'05 
 4. *Splinter: Practical Private Queries on Public Data*----NSDI'17
@@ -236,7 +239,7 @@ In this repo, it records some paper related to storage system, including **Data 
 ### Data Encryption
 
 1. *Differentially Private Access Patterns for Searchable Symmetric Encryption*----INFOCOM'18 [summary](https://yzr95924.github.io/paper_summary/DifferentialPrivacy-INFOCOM'18.html)
-2. *Frequency-Hiding Order-Preserving Encryption*----CCS'15
+2. *Frequency-Hiding Order-Preserving Encryption*----CCS'15 ([link](https://dl.acm.org/doi/10.1145/2810103.2813629))
 3. *RAPPOR: Randomized Aggregable Privacy-Preserving Ordinal Response*----CCS'14
 4. *Privacy at Scale: Local Differential Privacy in Practice*----SIGMOD'18
 5. *Frequency-smoothing Encryption: Preventing Snapshot Attacks on Deterministically Encrypted Data*----IACR'17 [summary](https://yzr95924.github.io/paper_summary/FrequencySmoothing-ICAR'17.html)
@@ -252,7 +255,7 @@ In this repo, it records some paper related to storage system, including **Data 
 15. *Oblivious RAM as a Substrate for Cloud Storage - The Leakage Challenge Ahead*----CCSW'16 ([link](https://dl.acm.org/citation.cfm?id=2996430)) [summary](https://yzr95924.github.io/paper_summary/ORAM-CCSW'16.html)
 16. *Oblivious RAM: A Dissection and Experimental Evaluation*---VLDB'16 ([link](http://www.vldb.org/pvldb/vol9/p1113-chang.pdf))
 17. *Splinter: Practical Private Queries on Public Data*----NSDI'17 ([link](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-wang-frank.pdf))
-18. *Quantifying Information Leakage of Deterministic Encryption*----CCSW'19 ([link]( http://users.cs.fiu.edu/~mjura011/documents/2019_CCSW_Quantifying_Information_Leakage_of_Deterministic_Encryption ))
+18. *Quantifying Information Leakage of Deterministic Encryption*----CCSW'19 ([link]( http://users.cs.fiu.edu/~mjura011/documents/2019_CCSW_Quantifying_Information_Leakage_of_Deterministic_Encryption )) [summary](https://yzr95924.github.io/paper_summary/QuantifyingInformationLeakage-CCSW'19.html)
 
 ### Secure Deletion
 

@@ -14,9 +14,11 @@ This paper proposes a framework to analyze the content-based chunking algorithms
 > focus on **stateless chunking algorithm**, do not consider the history of the sequence, or the state of a server where other versions of the sequence might be stored.
 
 **Chunking stability**: if it makes a small modification to data, turning into a new version, and apply the chunking algorithm to the new version of data
+
 > most of the chunk created for the new version are identical to the chunks created for the older version data.
 
 ### Tow Thresholds, Two Divisors Algorithm (TTTD)
+
 - Analysis on Basic Sliding Window Algorithm (BSW)
 Basic workflow of the BSW:
 there is a pre-determined integer $D$, a fixed width sliding windows is moved across the file, and at every position in the file.
