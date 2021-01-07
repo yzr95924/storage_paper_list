@@ -39,18 +39,20 @@ In this repo, it records some paper related to storage system, including **Data 
 2. *dedupv1: Improving Deduplication Throughput using Solid State Drives (SSD)*----MSST'10 ([link](https://ieeexplore.ieee.org/document/5496992)) [summary](https://yzr95924.github.io/paper_summary/dedupv1-MSST'10.html)
 3. *Extreme Binning: Scalable, Parallel Deduplication for Chunk-based File Backup*----MASCOTS'09 ([link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.467.1985&rep=rep1&type=pdf)) [summary](https://yzr95924.github.io/paper_summary/ExtremeBining-MASCOTS'09.html)
 4. *Sparse Indexing: Large Scale, Inline Deduplication Using Sampling and Locality*----FAST'09 ([link](https://pdfs.semanticscholar.org/6585/e111960d2b170bb6677865b73b6d1f27d71a.pdf)) [summary](yzr95924.github.io/paper_summary/SparseIndex-FAST'09.html)
-5. *Building a High-performance Deduplication System*----USENIX ATC'11 ([link]( https://www.usenix.org/legacy/event/atc11/tech/final_files/GuoEfstathopoulos.pdf )) [summary]( https://yzr95924.github.io/paper_summary/Dedup-ATC'11.html )
-6. *Primary Data Deduplication - Large Scale Study and System Design*----USENIX ATC'12 ([link]( https://www.usenix.org/system/files/conference/atc12/atc12-final293.pdf ))
-7. *Storage Efficiency Opportunities and Analysis for Video Repositories*----HotStorage'15
-8. *Venti: A New Approach to Archival Storage*----FAST'02 ([link](https://www.usenix.org/legacy/publications/library/proceedings/fast02/quinlan/quinlan.pdf))
-9. *ChunkStash: Speeding up Inline Storage Deduplication using Flash Memory*----USENIX ATC'10 ([link](https://www.usenix.org/legacy/events/atc10/tech/full_papers/Debnath.pdf)) 
-10. *Data Domain Cloud Tier: Backup here, Backup there, Deduplicated Everywhere!*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-duggal.pdf)) [summary]( https://yzr95924.github.io/paper_summary/CloudTier-ATC'19.html )
-11. *SmartDedup: Optimizing Deduplication for Resource-constrained Devices*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-yang-qirui.pdf))
+5. *SiLo: A Similarity-Locality based Near-Exact Deduplication Scheme with Low RAM Overhead and High Throughput*----USENIX ATC'11 ([link](https://www.usenix.org/legacy/event/atc11/tech/final_files/Xia.pdf))
+6. *Building a High-performance Deduplication System*----USENIX ATC'11 ([link]( https://www.usenix.org/legacy/event/atc11/tech/final_files/GuoEfstathopoulos.pdf )) [summary]( https://yzr95924.github.io/paper_summary/Dedup-ATC'11.html )
+7. *Primary Data Deduplication - Large Scale Study and System Design*----USENIX ATC'12 ([link]( https://www.usenix.org/system/files/conference/atc12/atc12-final293.pdf ))
+8. *Storage Efficiency Opportunities and Analysis for Video Repositories*----HotStorage'15
+9. *Venti: A New Approach to Archival Storage*----FAST'02 ([link](https://www.usenix.org/legacy/publications/library/proceedings/fast02/quinlan/quinlan.pdf))
+10. *ChunkStash: Speeding up Inline Storage Deduplication using Flash Memory*----USENIX ATC'10 ([link](https://www.usenix.org/legacy/events/atc10/tech/full_papers/Debnath.pdf)) 
+11. *Data Domain Cloud Tier: Backup here, Backup there, Deduplicated Everywhere!*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-duggal.pdf)) [summary]( https://yzr95924.github.io/paper_summary/CloudTier-ATC'19.html )
+12. *SmartDedup: Optimizing Deduplication for Resource-constrained Devices*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-yang-qirui.pdf))
 13. Can't We All Get Along? Redesigning Protection Storage for Modern Workloads----USENIX ATC'18 ([link](https://www.usenix.org/system/files/conference/atc18/atc18-allu.pdf)) [summary](https://yzr95924.github.io/paper_summary/Redesigning-ATC'18.html)
 14. *Deduplication in SSDs: Model and quantitative analysis*----MSST'12 ([link](https://ieeexplore.ieee.org/document/6232379))
-14. *Cumulus: Filesystem Backup to the Cloud*----FAST'09 ([link](https://www.usenix.org/legacy/event/fast09/tech/full_papers/vrable/vrable.pdf))
-15. *iDedup: Latency-aware, Inline Data Deduplication for Primary Storage*----FAST'12 ([link]( https://www.usenix.org/legacy/event/fast12/tech/full_papers/Srinivasan.pdf ))
-16. *DupHunter: Flexible High-Performance Deduplication for Docker Registries*----USENIX ATC'20 ([link](https://www.usenix.org/system/files/atc20-zhao.pdf))
+15. *Cumulus: Filesystem Backup to the Cloud*----FAST'09 ([link](https://www.usenix.org/legacy/event/fast09/tech/full_papers/vrable/vrable.pdf))
+16. *iDedup: Latency-aware, Inline Data Deduplication for Primary Storage*----FAST'12 ([link]( https://www.usenix.org/legacy/event/fast12/tech/full_papers/Srinivasan.pdf ))
+17. *DupHunter: Flexible High-Performance Deduplication for Docker Registries*----USENIX ATC'20 ([link](https://www.usenix.org/system/files/atc20-zhao.pdf))
+18. Design Tradeoffs for Data Deduplication Performance in Backup Workloads----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-fu.pdf)) [summary](https://yzr95924.github.io/paper_summary/DedupDesignTradeoff-FAST'15.html)
 
 ### Restore Performances
 
@@ -62,6 +64,7 @@ In this repo, it records some paper related to storage system, including **Data 
 6. *Sliding Look-Back Window Assisted Data Chunk Rewriting for Improving Deduplication Restore Performance*----FAST'19 ([link](https://www.usenix.org/system/files/fast19-cao.pdf)) [summary](https://yzr95924.github.io/paper_summary/LookBackWindow-FAST'19.html)
 7. *Improving Restore Speed for Backup Systems that Use Inline Chunk-Based Deduplication*---FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final124.pdf)) [summary](https://yzr95924.github.io/paper_summary/ImproveRestore-FAST'13.html)
 8. *Chunk Fragmentation Level: An Effective Indicator for Read Performance Degradation in Deduplication Storage*----HPCC'11 
+9. *Improving the Restore Performance via Physical Locality Middleware for Backup Systems*----Middleware'20 ([link](https://dl.acm.org/doi/pdf/10.1145/3423211.3425691))
 
 ### Secure Deduplication
 1. *Convergent Dispersal: Toward Storage-Efficient Security in a Cloud-of-Clouds*----HotStorage'14 ([link](https://www.cse.cuhk.edu.hk/~pclee/www/pubs/hotstorage14.pdf)) [summary](https://yzr95924.github.io/paper_summary/CAONT-RS-HotStorage'14.html)
@@ -90,10 +93,10 @@ In this repo, it records some paper related to storage system, including **Data 
 24. *PraDa: Privacy-preserving Data Deduplication as a Service*----CIKM'14 ([link](https://msuweb.montclair.edu/~dongb/publications/cikm2014.pdf))
 25. *Privacy-Preserving Data Deduplication on Trusted Processors*----CLOUD'17 ([link](https://ieeexplore.ieee.org/document/8030573)) [summary]( https://yzr95924.github.io/paper_summary/PrivacyPreservingDedup-CLOUD'17.html )
 26. *Distributed Key Generation for Encrypted Deduplication: Achieving the Strongest Privacy*----CCSW'14 ([link]( https://dl.acm.org/doi/abs/10.1145/2664168.2664169 )) [summary](https://yzr95924.github.io/paper_summary/DistributedKeyGen-CCSW'14.html)
+27. *Proofs of Ownership on Encrypted Cloud Data via Intel SGX*----ACNS'20 ([link](https://link.springer.com/chapter/10.1007/978-3-030-61638-0_22)) [summary](https://yzr95924.github.io/paper_summary/PoWSGX-ACNS'20.html)
 
 ### Computation Deduplication
 
-1. *SPEED: Accelerating Enclave Applications via Secure Deduplication*----ICDCS'19 ([link](https://conferences.computer.org/icdcs/2019/pdfs/ICDCS2019-49XpIlu3rRtYi2T0qVYnNX/5DGHpUvuZKbyIr6VRJc0zW/5PfoKBVnBKUPCcy8ruoayx.pdf))
 2. *Secure Deduplication of General Computations*
 
 
@@ -267,18 +270,27 @@ In this repo, it records some paper related to storage system, including **Data 
 2. *Calibrating Noise to Sensitivity in Private Data Analysis*----TCC'06 ([link](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/03/dmns06.pdf))
 3. Privacy at Scale: Local Differential Privacy in Practice----SIGMOD'18 ([link](http://dimacs.rutgers.edu/~graham/pubs/papers/ldptutorial.pdf))
 
-### SGX
+### SGX Technique
+1. *Graphene-SGX: A Practical Library OS for Unmodified Applications on SGX*----USENIX ATC'17 ([link](https://www.usenix.org/system/files/conference/atc17/atc17-tsai.pdf))
+2. *Intel SGX Explained*----IACR'16 ([link]( https://eprint.iacr.org/2016/086.pdf ))
+3. *OpenSGX: An Open Platform for SGX Research*----NDSS'16 ([link](http://ina.kaist.ac.kr/~dongsuh/paper/opensgx.pdf))
+4. *SCONE: Secure Linux Containers with Intel SGX*----OSDI'16 ([link](https://www.usenix.org/system/files/conference/osdi16/osdi16-arnautov.pdf))
+5. *Varys: Protecting SGX Enclaves From Practical Side-Channel Attacks*---USENIX ATC'18 ([link](https://www.usenix.org/system/files/conference/atc18/atc18-oleksenko.pdf))
+6. *sgx-perf: A Performance Analysis Tool for Intel SGX Enclaves*----Middleware'18 ([link](https://www.ibr.cs.tu-bs.de/users/weichbr/papers/middleware2018.pdf)) [summary]( https://yzr95924.github.io/paper_summary/SGXPerf-Middleware'18.html )
+7. *TaLoS: Secure and Transparent TLS Termination inside SGX Enclaves*----arxiv'17 ([link](https://www.doc.ic.ac.uk/~fkelbert/papers/talos17.pdf)) [summary](https://yzr95924.github.io/paper_summary/talos-arxiv'17.html)
+8. *Switchless Calls Made Practical in Intel SGX*----SysTex'18 ([link](https://dl.acm.org/doi/pdf/10.1145/3268935.3268942))
+9. *Regaining Lost Seconds: Efficient Page Preloading for SGX Enclaves*----Middleware'20 ([link](https://dl.acm.org/doi/pdf/10.1145/3423211.3425673))
 
+### SGX Storage
 1. *NEXUS: Practical and Secure Access Control on Untrusted Storage Platforms using Client-side SGX*----DSN'19 ([link](https://people.cs.pitt.edu/~adamlee/pubs/2019/djoko2019dsn-nexus.pdf))
-2. *Securing the Storage Data Path with SGX Enclaves*----arxiv'18 ([link](https://arxiv.org/abs/1806.10883)) 
+2. *Securing the Storage Data Path with SGX Enclaves*----arxiv'18 ([link](https://arxiv.org/abs/1806.10883)) [summary](https://yzr95924.github.io/paper_summary/StorageDataPathSGX-arxiv.html)
 3. *EnclaveDB: A Secure Database using SGX*----S&P'18
 4. *Isolating Operating System Components with Intel SGX*----SysTEX'16 ([link](https://faui1-files.cs.fau.de/filepool/projects/sgx-kernel/sgx-kernel.pdf))
-5. *SPEICHER: Securing LSM-based Key-Value Stores using Shielded Execution*----FAST'19 ([link](https://www.usenix.org/system/files/fast19-bailleu.pdf))
+5. *SPEICHER: Securing LSM-based Key-Value Stores using Shielded Execution*----FAST'19 ([link](https://www.usenix.org/system/files/fast19-bailleu.pdf)) [summary](https://yzr95924.github.io/paper_summary/SPEICHER-FAST'19.html)
 6. *ShieldStore: Shielded In-memory Key-Value Storage with SGX*----EUROSYS'19 ([link]( http://calab.kaist.ac.kr:8080/~jhuh/papers/kim_eurosys19_shieldst.pdf )) [summary](https://yzr95924.github.io/paper_summary/ShieldStore-EuroSys'19.html)
 7. SeGShare: Secure Group File Sharing in the Cloud using Enclaves----DSN'20 ([link](http://www.fkerschbaum.org/dsn20.pdf)) [summary](https://yzr95924.github.io/paper_summary/SeGShare-DSN'20.html)
-8. *Graphene-SGX: A Practical Library OS for Unmodified Applications on SGX*----USENIX ATC'17 ([link](https://www.usenix.org/system/files/conference/atc17/atc17-tsai.pdf))
-9. *Intel SGX Explained*----IACR'16 ([link]( https://eprint.iacr.org/2016/086.pdf ))
-10. *OpenSGX: An Open Platform for SGX Research*----NDSS'16 ([link](http://ina.kaist.ac.kr/~dongsuh/paper/opensgx.pdf))
+8. *DISKSHIELD: A Data Tamper-Resistant Storage for Intel SGX*----AsiaCCS'20 ([link](https://dl.acm.org/doi/pdf/10.1145/3320269.3384717))
+9. *SPEED: Accelerating Enclave Applications via Secure Deduplication*----ICDCS'19 ([link](https://conferences.computer.org/icdcs/2019/pdfs/ICDCS2019-49XpIlu3rRtYi2T0qVYnNX/5DGHpUvuZKbyIr6VRJc0zW/5PfoKBVnBKUPCcy8ruoayx.pdf)) [summary](https://yzr95924.github.io/paper_summary/SPEED-ICDCS'19.html)
 
 ### Network Security
 

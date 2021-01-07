@@ -9,6 +9,7 @@ Intel SGX Explained
 [TOC]
 
 ## 1. Overview
+
 - The root problem (confidentiality and integrity)
   - Secure remote computation: executing software on a remote computer **owned and maintained by an untrusted party**.
   - leveraging trusted hardware inn the remote computer
