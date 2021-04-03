@@ -7,7 +7,7 @@ In this repo, it records some paper related to storage system, including **Data 
 
 | Type                    | Paper Amount |
 | ----------------------- | ------------ |
-| A. Data Deduplication   | 83           |
+| A. Data Deduplication   | 116          |
 | B. Erasure Coding       | 37           |
 | C. Security and Privacy | 12           |
 | D. Other                | 7            |
