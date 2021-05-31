@@ -7,7 +7,7 @@ In this repo, it records some paper related to storage system, including **Data 
 
 | Type                    | Paper Amount |
 | ----------------------- | ------------ |
-| A. Data Deduplication   | 116          |
+| A. Data Deduplication   | 83           |
 | B. Erasure Coding       | 37           |
 | C. Security and Privacy | 12           |
 | D. Other                | 7            |
@@ -97,6 +97,8 @@ In this repo, it records some paper related to storage system, including **Data 
 25. *Privacy-Preserving Data Deduplication on Trusted Processors*----CLOUD'17 ([link](https://ieeexplore.ieee.org/document/8030573)) [summary]( https://yzr95924.github.io/paper_summary/PrivacyPreservingDedup-CLOUD'17.html )
 26. *Distributed Key Generation for Encrypted Deduplication: Achieving the Strongest Privacy*----CCSW'14 ([link]( https://dl.acm.org/doi/abs/10.1145/2664168.2664169 )) [summary](https://yzr95924.github.io/paper_summary/DistributedKeyGen-CCSW'14.html)
 27. *Proofs of Ownership on Encrypted Cloud Data via Intel SGX*----ACNS'20 ([link](https://link.springer.com/chapter/10.1007/978-3-030-61638-0_22)) [summary](https://yzr95924.github.io/paper_summary/PoWSGX-ACNS'20.html)
+28. *Accelerating Encrypted Deduplication via SGX*----USENIX ATC'21
+29. *S2Dedup: SGX-enabled Secure Deduplication*----SYSTOR'21
 
 ### Computation Deduplication
 
@@ -281,9 +283,10 @@ In this repo, it records some paper related to storage system, including **Data 
 5. *Varys: Protecting SGX Enclaves From Practical Side-Channel Attacks*---USENIX ATC'18 ([link](https://www.usenix.org/system/files/conference/atc18/atc18-oleksenko.pdf))
 6. *sgx-perf: A Performance Analysis Tool for Intel SGX Enclaves*----Middleware'18 ([link](https://www.ibr.cs.tu-bs.de/users/weichbr/papers/middleware2018.pdf)) [summary]( https://yzr95924.github.io/paper_summary/SGXPerf-Middleware'18.html )
 7. *TaLoS: Secure and Transparent TLS Termination inside SGX Enclaves*----arxiv'17 ([link](https://www.doc.ic.ac.uk/~fkelbert/papers/talos17.pdf)) [summary](https://yzr95924.github.io/paper_summary/talos-arxiv'17.html)
-8. *Switchless Calls Made Practical in Intel SGX*----SysTex'18 ([link](https://dl.acm.org/doi/pdf/10.1145/3268935.3268942)) 
+8. *Switchless Calls Made Practical in Intel SGX*----SysTex'18 ([link](https://dl.acm.org/doi/pdf/10.1145/3268935.3268942)) [summary](https://yzr95924.github.io/paper_summary/SwitchLess-SysTEX'18.html)
 9. *Regaining Lost Seconds: Efficient Page Preloading for SGX Enclaves*----Middleware'20 ([link](https://dl.acm.org/doi/pdf/10.1145/3423211.3425673))
 10. *Everything You Should Know About Intel SGX Performance on Virtualized Systems*----Sigmeterics'19 ([link](https://dl.acm.org/doi/pdf/10.1145/3322205.3311076)) [summary](https://yzr95924.github.io/paper_summary/SGXPerformance-SIGMETRICS'19.html)
+11. *A Comparison Study of Intel SGX and AMD Memory Encryption Technology*---HASP'18 ([link](https://dl.acm.org/doi/abs/10.1145/3214292.3214301))
 
 ### SGX Storage
 
@@ -296,12 +299,14 @@ In this repo, it records some paper related to storage system, including **Data 
 7. SeGShare: Secure Group File Sharing in the Cloud using Enclaves----DSN'20 ([link](http://www.fkerschbaum.org/dsn20.pdf)) [summary](https://yzr95924.github.io/paper_summary/SeGShare-DSN'20.html)
 8. *DISKSHIELD: A Data Tamper-Resistant Storage for Intel SGX*----AsiaCCS'20 ([link](https://dl.acm.org/doi/pdf/10.1145/3320269.3384717))
 9. *SPEED: Accelerating Enclave Applications via Secure Deduplication*----ICDCS'19 ([link](https://conferences.computer.org/icdcs/2019/pdfs/ICDCS2019-49XpIlu3rRtYi2T0qVYnNX/5DGHpUvuZKbyIr6VRJc0zW/5PfoKBVnBKUPCcy8ruoayx.pdf)) [summary](https://yzr95924.github.io/paper_summary/SPEED-ICDCS'19.html)
+12. *Secure In-memory Key-Value Storage with SGX*----SoCC'18
+13. *EnclaveCache: A Secure and Scalable Key-value Cache in Multi-tenant Clouds using Intel SGX*----Middleware'19 ([link](https://dl.acm.org/doi/pdf/10.1145/3361525.3361533) [summary](https://yzr95924.github.io/paper_summary/EnclaveCache-Middleware'19.html)
 
 ### Network Security
 
 1. *A Privacy-Preserving Defense Mechanism Against Request Forgery Attacks*----TrustCom'11 ([link](https://www.cse.cuhk.edu.hk/~pclee/www/pubs/trustcom11.pdf)) [summary]( https://yzr95924.github.io/paper_summary/DeRef-TrustCom'11.html )
 
-## D. Others
+## D. General Storage
 ### Multi-Cloud System
 1. *Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways*----SYSTOR'19 [summary](https://yzr95924.github.io/paper_summary/Kurma-SYSTOR'19.html)
 2. *SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Cloud Services*----SOSP'13 [summary](https://yzr95924.github.io/paper_summary/SPANStore-SOSP'13.html)
@@ -312,7 +317,7 @@ In this repo, it records some paper related to storage system, including **Data 
 
 1. *In Search of an Understandable Consensus Algorithm*----USENIX ATC'14
 
-### Distributed File System
+### Storage System
 1. *Ceph: A Salable, High-Performance Distributed File System*----OSDI'06 
 2. *The Hadoop Distributed File System*----MSST'10 ([link](http://storageconference.us/2010/Papers/MSST/Shvachko.pdf)) [summary](https://yzr95924.github.io/paper_summary/HDFS-MSST'10.html)
 3. *RADOS: A Scalable, Reliable Storage Service for Petabyte-scale Storage Clusters*----PDSW'07
@@ -321,10 +326,17 @@ In this repo, it records some paper related to storage system, including **Data 
 6. *The Google File System*----SOSP'03
 7. *Bigtable: A Distributed Storage System for Structured Data*----OSDI'06
 
+### Cache
+
+1. *TinyLFU: A Highly Efficient Cache Admission Policy*----ACM ToS'17 
+
+
 ### Hash
 1. *Compare-by-Hash: A Reasoned Analysis*----USENIX ATC'06 ([link](https://www.usenix.org/legacy/event/usenix06/tech/full_papers/black/black.pdf)) [summary](https://yzr95924.github.io/paper_summary/CompareByHash-ATC'06.html)
 2. *An Analysis of Compare-by-Hash*----HotOS'03 ([link](http://www.cs.utah.edu/~shanth/stuff/research/dup_elim/hash_cmp.pdf))
 
 ### Streaming Process
 1. *A Lock-Free, Cache-Efficient Multi-Core Synchronization Mechanism for Line-Rate Network Traffic Monitoring*----IPDPS'10
+
+
 
