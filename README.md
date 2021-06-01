@@ -50,8 +50,7 @@ In this repo, it records some paper related to storage system, including **Data 
 12. *SmartDedup: Optimizing Deduplication for Resource-constrained Devices*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-yang-qirui.pdf))
 13. Can't We All Get Along? Redesigning Protection Storage for Modern Workloads----USENIX ATC'18 ([link](https://www.usenix.org/system/files/conference/atc18/atc18-allu.pdf)) [summary](https://yzr95924.github.io/paper_summary/Redesigning-ATC'18.html)
 14. *Deduplication in SSDs: Model and quantitative analysis*----MSST'12 ([link](https://ieeexplore.ieee.org/document/6232379))
-15. *Cumulus: Filesystem Backup to the Cloud*----FAST'09 ([link](https://www.usenix.org/legacy/event/fast09/tech/full_papers/vrable/vrable.pdf))
-16. *iDedup: Latency-aware, Inline Data Deduplication for Primary Storage*----FAST'12 ([link]( https://www.usenix.org/legacy/event/fast12/tech/full_papers/Srinivasan.pdf ))
+16. *iDedup: Latency-aware, Inline Data Deduplication for Primary Storage*----FAST'12 ([link]( https://www.usenix.org/legacy/event/fast12/tech/full_papers/Srinivasan.pdf )) [summary](https://yzr95924.github.io/paper_summary/iDedup-FAST'12.html)
 17. *DupHunter: Flexible High-Performance Deduplication for Docker Registries*----USENIX ATC'20 ([link](https://www.usenix.org/system/files/atc20-zhao.pdf))
 18. Design Tradeoffs for Data Deduplication Performance in Backup Workloads----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-fu.pdf)) [summary](https://yzr95924.github.io/paper_summary/DedupDesignTradeoff-FAST'15.html)
 19. The Dilemma between Deduplication and Locality: Can Both be Achieved?---FAST'21 ([link](https://www.usenix.org/system/files/fast21-zou.pdf)) [summary](https://yzr95924.github.io/paper_summary/MFDedup-FAST'21.html)
@@ -79,7 +78,7 @@ In this repo, it records some paper related to storage system, including **Data 
 7. *On Information Leakage in Deduplication Storage Systems*----CCS Workshop'16 [summary](https://yzr95924.github.io/paper_summary/InformationLeakage-CCSW'16.html)
 8. *SecDep: A User-Aware Efficient Fine-Grained Secure Deduplication Scheme with Multi-Level Key Management*----MSST'15 ([link](https://cswxia.github.io/SecDep-final-2015.pdf))
 9. *Message-Locked Encryption and Secure Deduplication*----EuroCrypt'13 [summary](https://yzr95924.github.io/paper_summary/MLE-EuroCrypto'13.html)
-10. *Proofs of Ownership in Remote Storage System*----CCS'11
+10. *Proofs of Ownership in Remote Storage System*----CCS'11 ([link](https://dl.acm.org/doi/pdf/10.1145/2046707.2046765))
 11. *Tapping the Potential: Secure Chunk-based Deduplication of Encrypted Data for Cloud Backup*----CNS'18 [summary](https://yzr95924.github.io/paper_summary/TappingPotential-CNS'18.html)
 12. *A Bandwidth-Efficient Middleware for Encrypted Deduplication*----DSC'18 [summary](https://yzr95924.github.io/paper_summary/UWare-DSC'18.html)
 13. *Bloom Filter Based Privacy Preserving Deduplication System*----Springer International Conference on Security & Privacy'19 ([link](https://link.springer.com/chapter/10.1007/978-981-13-7561-3_2)) [summary](https://yzr95924.github.io/paper_summary/BloomFilterDedup-ICSP'19.html)
@@ -102,7 +101,7 @@ In this repo, it records some paper related to storage system, including **Data 
 
 ### Computation Deduplication
 
-2. *Secure Deduplication of General Computations*
+1. *Secure Deduplication of General Computations*
 
 
 ### Metadata Management
@@ -138,6 +137,7 @@ In this repo, it records some paper related to storage system, including **Data 
 1. *UKSM: Swift Memory Deduplication via Hierarchical and Adaptive Memory Region Distilling*----FAST'18 [summary](https://yzr95924.github.io/paper_summary/UKSM-FAST'18.html)
 2. *Using Hints to Improve Inline Block-Layer Deduplication*----FAST'16 [summary](https://yzr95924.github.io/paper_summary/HintsDeduplication-FAST'16.html*)
 3. *XLM: More Effective Memory Deduplication Scanners through Cross-Layer Hints*----USENIX ATC'13
+4. *OrderMergeDedup: Efficient, Failure-Consistent Deduplication on Flash*----FAST'16 ([link](https://www.usenix.org/system/files/conference/fast16/fast16-papers-chen-zhuan.pdf))
 
 ### Data Chunking
 1. *SS-CDC: A Two-stage Parallel Content-Defined Chunking for Deduplicating Backup Storage*----SYSTOR'19 ([(link)]( http://ranger.uta.edu/~sjiang/pubs/papers/ni19-ss-cdc.pdf )) [summary](https://yzr95924.github.io/paper_summary/SSCDC-SYSTOR'19.html)
@@ -179,6 +179,7 @@ In this repo, it records some paper related to storage system, including **Data 
 3. *A Scalable Inline Cluster Deduplication Framework for Big Data Protection*----Middleware'12 ([link](https://hal.inria.fr/hal-01555548/document))
 4. *Tradeoffs in Scalable Data Routing for Deduplication Clusters*----FAST'11 ([link](https://www.usenix.org/legacy/events/fast11/tech/full_papers/Dong.pdf)) [summary]( https://yzr95924.github.io/paper_summary/TradeoffDataRouting-FAST'11.html )
 5. *Cluster and Single-Node Analysis of Long-Term Deduplication Patterns*----ToS'18 ([link](https://dl.acm.org/doi/pdf/10.1145/3183890)) [summary](https://yzr95924.github.io/paper_summary/ClusterSingle-ToS'18.html)
+6. *Decentralized Deduplication in SAN Cluster File Systems*----FAST'09 ([link](https://static.usenix.org/events/usenix09/tech/full_papers/clements/clements.pdf))
 
 ## B. Erasure Coding
 
@@ -292,7 +293,7 @@ In this repo, it records some paper related to storage system, including **Data 
 
 1. *NEXUS: Practical and Secure Access Control on Untrusted Storage Platforms using Client-side SGX*----DSN'19 ([link](https://people.cs.pitt.edu/~adamlee/pubs/2019/djoko2019dsn-nexus.pdf))
 2. *Securing the Storage Data Path with SGX Enclaves*----arxiv'18 ([link](https://arxiv.org/abs/1806.10883)) [summary](https://yzr95924.github.io/paper_summary/StorageDataPathSGX-arxiv.html)
-3. *EnclaveDB: A Secure Database using SGX*----S&P'18
+3. *EnclaveDB: A Secure Database using SGX*----S&P'18 ([link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8418608))
 4. *Isolating Operating System Components with Intel SGX*----SysTEX'16 ([link](https://faui1-files.cs.fau.de/filepool/projects/sgx-kernel/sgx-kernel.pdf))
 5. *SPEICHER: Securing LSM-based Key-Value Stores using Shielded Execution*----FAST'19 ([link](https://www.usenix.org/system/files/fast19-bailleu.pdf)) [summary](https://yzr95924.github.io/paper_summary/SPEICHER-FAST'19.html)
 6. *ShieldStore: Shielded In-memory Key-Value Storage with SGX*----EUROSYS'19 ([link]( http://calab.kaist.ac.kr:8080/~jhuh/papers/kim_eurosys19_shieldst.pdf )) [summary](https://yzr95924.github.io/paper_summary/ShieldStore-EuroSys'19.html)
@@ -307,24 +308,23 @@ In this repo, it records some paper related to storage system, including **Data 
 1. *A Privacy-Preserving Defense Mechanism Against Request Forgery Attacks*----TrustCom'11 ([link](https://www.cse.cuhk.edu.hk/~pclee/www/pubs/trustcom11.pdf)) [summary]( https://yzr95924.github.io/paper_summary/DeRef-TrustCom'11.html )
 
 ## D. General Storage
-### Multi-Cloud System
+### Cloud Storage System
 1. *Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways*----SYSTOR'19 [summary](https://yzr95924.github.io/paper_summary/Kurma-SYSTOR'19.html)
 2. *SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Cloud Services*----SOSP'13 [summary](https://yzr95924.github.io/paper_summary/SPANStore-SOSP'13.html)
 3. *CosTLO: Cost-Effective Redundancy for Lower Latency Variance on Cloud Storage Service*----NSDI'15
 4. *A Day Late and a Dollar Short: The Case for Research on Cloud Billing Systems*----HotCloud'14
+5. *Cumulus: Filesystem Backup to the Cloud*----FAST'09 ([link](https://www.usenix.org/legacy/event/fast09/tech/full_papers/vrable/vrable.pdf)) [summary](https://yzr95924.github.io/paper_summary/Cumulus-FAST'09.html)
+6. *Ceph: A Salable, High-Performance Distributed File System*----OSDI'06 
+7. *The Hadoop Distributed File System*----MSST'10 ([link](http://storageconference.us/2010/Papers/MSST/Shvachko.pdf)) [summary](https://yzr95924.github.io/paper_summary/HDFS-MSST'10.html)
+8. *RADOS: A Scalable, Reliable Storage Service for Petabyte-scale Storage Clusters*----PDSW'07
+9. *CRUSH: Controlled, Scalable, Decentralized Placement of Replicated Data*----SC'06
+10. *MapReduce: Simplified Data Processing on Large Clusters*----OSDI'04
+11. *The Google File System*----SOSP'03
+12. *Bigtable: A Distributed Storage System for Structured Data*----OSDI'06
 
 ### New PAXOS
 
 1. *In Search of an Understandable Consensus Algorithm*----USENIX ATC'14
-
-### Storage System
-1. *Ceph: A Salable, High-Performance Distributed File System*----OSDI'06 
-2. *The Hadoop Distributed File System*----MSST'10 ([link](http://storageconference.us/2010/Papers/MSST/Shvachko.pdf)) [summary](https://yzr95924.github.io/paper_summary/HDFS-MSST'10.html)
-3. *RADOS: A Scalable, Reliable Storage Service for Petabyte-scale Storage Clusters*----PDSW'07
-4. *CRUSH: Controlled, Scalable, Decentralized Placement of Replicated Data*----SC'06
-5. *MapReduce: Simplified Data Processing on Large Clusters*----OSDI'04
-6. *The Google File System*----SOSP'03
-7. *Bigtable: A Distributed Storage System for Structured Data*----OSDI'06
 
 ### Cache
 
