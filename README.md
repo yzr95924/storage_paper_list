@@ -3,17 +3,6 @@
 In this repo, it records some paper related to storage system, including **Data Deduplication** (aka, dedup), **Erasure Coding** (aka, EC), general **Distributed Storage System** (aka, DSS) and other related topics (i.e., Network Security.....), updating from time to time~
 [TOC]
 
-
-
-| Type                    | Paper Amount |
-| ----------------------- | ------------ |
-| A. Data Deduplication   | 83           |
-| B. Erasure Coding       | 37           |
-| C. Security and Privacy | 12           |
-| D. Other                | 7            |
-
-
-
 ## A. Data Deduplication
 
 ### Summary
@@ -22,6 +11,7 @@ In this repo, it records some paper related to storage system, including **Data 
 3. *A Survey of Secure Data Deduplication Schemes for Cloud Storage Systems*----ACM Computing Surveys'17 ([link](https://dl.acm.org/citation.cfm?id=3017428))
 4. *A Survey of Classification of Storage Deduplication Systems*----ACM Computing Surveys'14 ([link](https://dl.acm.org/citation.cfm?id=2611778))
 5. *Understanding Data Deduplication Ratios*----SNIA'08 ([link](https://www.snia.org/sites/default/files/Understanding_Data_Deduplication_Ratios-20080718.pdf))
+6. *Backup to the Future: How Workload and Hardware Changes Continually Redefine Data Domain File Systems*----IEEE Computer'17 ([link](https://ieeexplore.ieee.org/abstract/document/7971884))
 
 ### Workload Analysis
 1. *Characteristics of Backup Workloads in Production Systems*----FAST'12 ([link](http://www.usenix.net/legacy/events/fast12/tech/full_papers/Wallace2-9-12.pdf)) [summary](https://yzr95924.github.io/paper_summary/BackupWorkloads-FAST'12.html)
@@ -65,7 +55,7 @@ In this repo, it records some paper related to storage system, including **Data 
 6. *Sliding Look-Back Window Assisted Data Chunk Rewriting for Improving Deduplication Restore Performance*----FAST'19 ([link](https://www.usenix.org/system/files/fast19-cao.pdf)) [summary](https://yzr95924.github.io/paper_summary/LookBackWindow-FAST'19.html)
 7. *Improving Restore Speed for Backup Systems that Use Inline Chunk-Based Deduplication*---FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final124.pdf)) [summary](https://yzr95924.github.io/paper_summary/ImproveRestore-FAST'13.html)
 8. *Chunk Fragmentation Level: An Effective Indicator for Read Performance Degradation in Deduplication Storage*----HPCC'11 
-9. *Improving the Restore Performance via Physical Locality Middleware for Backup Systems*----Middleware'20 ([link](https://dl.acm.org/doi/pdf/10.1145/3423211.3425691))
+9. *Improving the Restore Performance via Physical Locality Middleware for Backup Systems*----Middleware'20 ([link](https://dl.acm.org/doi/pdf/10.1145/3423211.3425691)) [summary](https://yzr95924.github.io/paper_summary/HiDeStore-Middleware'20.html)
 10. Efficient Hybrid Inline and Out-of-Line Deduplication for Backup Storage----ToS'14 ([link](https://www.cse.cuhk.edu.hk/~pclee/www/pubs/tos14revdedup.pdf))
 
 ### Secure Deduplication
@@ -241,9 +231,7 @@ In this repo, it records some paper related to storage system, including **Data 
 ### Secret Sharing
 1. *How to Best Share a Big Secret*----SYSTOR'18 ([link](http://www.systor.org/2018/pdf/systor18-24.pdf)) [summary](https://yzr95924.github.io/paper_summary/ShareBigSecret-SYSTOR'18.html)
 2. *AONT-RS: Blending Security and Performance in Dispersed Storage Systems*----FAST'11
-3. *Secure Deletion for a Versioning File System*----FAST'05 
-4. *Splinter: Practical Private Queries on Public Data*----NSDI'17
-5. *On-the-Fly Verification of Rateless Erasure Codes for Efficient Content Distribution*----S&P'04
+3. *Splinter: Practical Private Queries on Public Data*----NSDI'17
 
 ### Data Encryption
 
@@ -288,6 +276,7 @@ In this repo, it records some paper related to storage system, including **Data 
 9. *Regaining Lost Seconds: Efficient Page Preloading for SGX Enclaves*----Middleware'20 ([link](https://dl.acm.org/doi/pdf/10.1145/3423211.3425673))
 10. *Everything You Should Know About Intel SGX Performance on Virtualized Systems*----Sigmeterics'19 ([link](https://dl.acm.org/doi/pdf/10.1145/3322205.3311076)) [summary](https://yzr95924.github.io/paper_summary/SGXPerformance-SIGMETRICS'19.html)
 11. *A Comparison Study of Intel SGX and AMD Memory Encryption Technology*---HASP'18 ([link](https://dl.acm.org/doi/abs/10.1145/3214292.3214301))
+12. *SGXoMeter: Open and Modular Benchmarking for Intel SGX*----EuroSec'21 ([link](https://www.ibr.cs.tu-bs.de/users/mahhouk/papers/eurosec2021.pdf))
 
 ### SGX Storage
 
@@ -296,12 +285,12 @@ In this repo, it records some paper related to storage system, including **Data 
 3. *EnclaveDB: A Secure Database using SGX*----S&P'18 ([link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8418608))
 4. *Isolating Operating System Components with Intel SGX*----SysTEX'16 ([link](https://faui1-files.cs.fau.de/filepool/projects/sgx-kernel/sgx-kernel.pdf))
 5. *SPEICHER: Securing LSM-based Key-Value Stores using Shielded Execution*----FAST'19 ([link](https://www.usenix.org/system/files/fast19-bailleu.pdf)) [summary](https://yzr95924.github.io/paper_summary/SPEICHER-FAST'19.html)
-6. *ShieldStore: Shielded In-memory Key-Value Storage with SGX*----EUROSYS'19 ([link]( http://calab.kaist.ac.kr:8080/~jhuh/papers/kim_eurosys19_shieldst.pdf )) [summary](https://yzr95924.github.io/paper_summary/ShieldStore-EuroSys'19.html)
+6. *ShieldStore: Shielded In-memory Key-Value Storage with SGX*----EuroSys'19 ([link]( http://calab.kaist.ac.kr:8080/~jhuh/papers/kim_eurosys19_shieldst.pdf )) [summary](https://yzr95924.github.io/paper_summary/ShieldStore-EuroSys'19.html)
 7. SeGShare: Secure Group File Sharing in the Cloud using Enclaves----DSN'20 ([link](http://www.fkerschbaum.org/dsn20.pdf)) [summary](https://yzr95924.github.io/paper_summary/SeGShare-DSN'20.html)
 8. *DISKSHIELD: A Data Tamper-Resistant Storage for Intel SGX*----AsiaCCS'20 ([link](https://dl.acm.org/doi/pdf/10.1145/3320269.3384717))
 9. *SPEED: Accelerating Enclave Applications via Secure Deduplication*----ICDCS'19 ([link](https://conferences.computer.org/icdcs/2019/pdfs/ICDCS2019-49XpIlu3rRtYi2T0qVYnNX/5DGHpUvuZKbyIr6VRJc0zW/5PfoKBVnBKUPCcy8ruoayx.pdf)) [summary](https://yzr95924.github.io/paper_summary/SPEED-ICDCS'19.html)
 12. *Secure In-memory Key-Value Storage with SGX*----SoCC'18
-13. *EnclaveCache: A Secure and Scalable Key-value Cache in Multi-tenant Clouds using Intel SGX*----Middleware'19 ([link](https://dl.acm.org/doi/pdf/10.1145/3361525.3361533) [summary](https://yzr95924.github.io/paper_summary/EnclaveCache-Middleware'19.html)
+13. *EnclaveCache: A Secure and Scalable Key-value Cache in Multi-tenant Clouds using Intel SGX*----Middleware'19 ([link](https://dl.acm.org/doi/pdf/10.1145/3361525.3361533)) [summary](https://yzr95924.github.io/paper_summary/EnclaveCache-Middleware'19.html)
 
 ### Network Security
 
@@ -334,9 +323,19 @@ In this repo, it records some paper related to storage system, including **Data 
 ### Hash
 1. *Compare-by-Hash: A Reasoned Analysis*----USENIX ATC'06 ([link](https://www.usenix.org/legacy/event/usenix06/tech/full_papers/black/black.pdf)) [summary](https://yzr95924.github.io/paper_summary/CompareByHash-ATC'06.html)
 2. *An Analysis of Compare-by-Hash*----HotOS'03 ([link](http://www.cs.utah.edu/~shanth/stuff/research/dup_elim/hash_cmp.pdf))
+3. *On-the-Fly Verification of Rateless Erasure Codes for Efficient Content Distribution*----S&P'04 ([link](https://pdos.csail.mit.edu/papers/otfvec/paper.pdf))
 
 ### Streaming Process
 1. *A Lock-Free, Cache-Efficient Multi-Core Synchronization Mechanism for Line-Rate Network Traffic Monitoring*----IPDPS'10
+
+### Continuous Data Protection & Versioning 
+
+1. *Design and Implementation of Verifiable Audit Trails for a Versioning File System*----FAST'07 ([link](https://static.usenix.org/event/fast07/tech/full_papers/peterson/peterson.pdf))
+2. *Architectures for controller based CDP*----FAST'07 ([link](https://static.usenix.org/events/fast07/tech/full_papers/laden/laden.pdf))
+3. *File Versioning for Block-Level Continuous Data Protection*----ICDCS'07
+4. *Cloud object storage based Continuous Data Protection(cCDP)*----NAS'15
+5. Secure Deletion for a Versioning File System----FAST'05 ([link](https://static.usenix.org/events/fast05/tech/full_papers/peterson/peterson.pdf))
+6. *Secure File System Versioning at the Block Level*----EuroSys'07 ([link](https://dl.acm.org/doi/pdf/10.1145/1272996.1273018))
 
 
 
