@@ -1,11 +1,11 @@
 ---
 typora-copy-images-to: ../paper_figure
 ---
-GoSeed: Generating an Optimal Seeding Plan for Deduplicated Storage
+Redesigning LSMs for Nonvolatile Memory  with NoveLSM
 ------------------------------------------
 |           Venue            |       Category       |
 | :------------------------: | :------------------: |
-| UCC'19 | Data Encryption |
+| ATC'18 | LSM+PM |
 [TOC]
 
 ## 1. Summary

@@ -43,7 +43,14 @@ divide the chunk into several sub-chunks with fixed size, get the maximum rabin 
 Principle: features in an SF should be extracted from the subchunks distributed uniformly across the chunk.
 > Can be implemented simply by sorting 
 
+- the whole workflow
+  - deduplication: an in-memory SHA-1 fingerprint table
+  - resemblance detection: Finesse and N-transform
+  - base chunk reading: use a base chunk cache with LRU and a size of 400MiB to reduce base chunk I/Os
+  - delta encoding: use the classic Xdelta
+
 ### Implementation and Evaluation
+
 Implementation: 
 implement delta compression in an open-source deduplication prototype system (Destor)
 deltra encoding $\rightarrow$ Xdelta
@@ -57,7 +64,7 @@ Evaluation:
 ## 2. Strength (Contributions of the paper)
 1. This paper tries to reduce the computation overhead of resemblance detection by using the feature loaclity in subchunks. It provides sufficient experiment observation to support its idea which makes it more concrete.
 ## 3. Weakness (Limitations of the paper)
-1. One key limitation in this paper is it can just detect the similar chunks with same size. How to handle the case when two high similarity chunks with different sizes can be considerd.
+1. One key limitation in this paper is it can just detect the similar chunks with same size. How to handle the case when two high similarity chunks with different sizes can be considered.
 
 ## 4. Future Works
 I think this paper is related to how to measure the chunk similarity between two given chunks. However, it still cannot quantify the similarity between two chunks which limits to further optimize the delta compression. One thing can be considered is to design a model to quantify the similarity  between two given chunks.
