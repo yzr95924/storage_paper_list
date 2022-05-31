@@ -410,7 +410,7 @@ A reading list related to storage system, including data deduplication, erasure 
 11. *Filesystem Aging: It's more Usage than Fullness*----HotStorage'19 ([link](https://www.cs.unc.edu/~porter/pubs/hotstorage19-paper-conway.pdf))
 12. *File Systems Fated for Senescence? Nonsense, Says Science!*----FAST'17 ([link](https://www.usenix.org/system/files/conference/fast17/fast17-conway.pdf))
 
-### Persistent Memories
+### Persistent Memory
 
 1. *SLM-DB: Single-Level Key-Value Store with Persistent Memory*----FAST'19 ([link](https://www.usenix.org/system/files/fast19-kaiyrakhmet.pdf)) [summary](https://yzr95924.github.io/paper_summary/SLMDB-FAST'19.html)
 2. *Redesigning LSMs for Nonvolatile Memory with NoveLSM*----USENIX ATC'18 ([link](https://www.usenix.org/system/files/conference/atc18/atc18-kannan.pdf)) [summary](https://yzr95924.github.io/paper_summary/NoveLSM-ATC'18.html)
