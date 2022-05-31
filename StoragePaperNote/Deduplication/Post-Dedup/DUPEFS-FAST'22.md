@@ -1,15 +1,17 @@
 ---
 typora-copy-images-to: ../paper_figure
 ---
-# To Zip or Not to Zip: Effective Resource Usage for Real-Time Compression
-
+DUPEFS: Leaking Data Over the Network With Filesystem Deduplication Side Channels
+------------------------------------------
 |           Venue            |       Category       |
 | :------------------------: | :------------------: |
-| ATC'18 | LSM+PM |
+| FAST'22 | secure deduplication |
 [TOC]
 
 ## 1. Summary
 ### Motivation of this paper
+
+- 
 
 ### Method Name
 
@@ -20,3 +22,4 @@ typora-copy-images-to: ../paper_figure
 ## 3. Weakness (Limitations of the paper)
 
 ## 4. Some Insights (Future work)
+

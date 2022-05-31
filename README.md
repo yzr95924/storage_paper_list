@@ -1,6 +1,6 @@
-# Storage System Paper List
+# Zuoru's Storage System Reading List
 
-In this repo, it records some paper related to storage system, including **Data Deduplication** (aka, dedup), **Erasure Coding** (aka, EC), general **Distributed Storage System** (aka, DSS) and other related topics (i.e., Network Security.....), updating from time to time~
+A reading list related to storage system, including data deduplication, erasure coding, general storage and other related topics (i.e., Security...), updating from time to time~
 [TOC]
 
 ## A. Data Deduplication
@@ -27,6 +27,8 @@ In this repo, it records some paper related to storage system, including **Data 
 11. *Inside Dropbox: Understanding Personal Cloud Storage Services*----IMC'12
 11. *Identifying Trends in Enterprise Data  Protection Systems*----USENIX ATC'15 ([link](https://www.usenix.org/system/files/conference/atc15/atc15-paper-amvrosladis.pdf))
 11. *Deduplication Analyses of Multimedia System Images*----HotStorage'18 ([link](https://www.usenix.org/system/files/conference/hotedge18/hotedge18-papers-suess.pdf))
+14. *Improving Docker Registry Design based on Production Workload Analysis*----FAST'18 ([link](https://www.usenix.org/system/files/conference/fast18/fast18-anwar.pdf))
+14. *Insights for Data Reduction in Primary Storage: a Practical Analysis*----SYSTOR'12 ([link](https://dl.acm.org/doi/pdf/10.1145/2367589.2367606))
 
 ### Deduplication System Design
 
@@ -44,15 +46,14 @@ In this repo, it records some paper related to storage system, including **Data 
 12. *SmartDedup: Optimizing Deduplication for Resource-constrained Devices*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-yang-qirui.pdf))
 13. Can't We All Get Along? Redesigning Protection Storage for Modern Workloads----USENIX ATC'18 ([link](https://www.usenix.org/system/files/conference/atc18/atc18-allu.pdf)) [summary](https://yzr95924.github.io/paper_summary/Redesigning-ATC'18.html)
 14. *Deduplication in SSDs: Model and quantitative analysis*----MSST'12 ([link](https://ieeexplore.ieee.org/document/6232379))
-16. *iDedup: Latency-aware, Inline Data Deduplication for Primary Storage*----FAST'12 ([link]( https://www.usenix.org/legacy/event/fast12/tech/full_papers/Srinivasan.pdf )) [summary](https://yzr95924.github.io/paper_summary/iDedup-FAST'12.html)
-17. *DupHunter: Flexible High-Performance Deduplication for Docker Registries*----USENIX ATC'20 ([link](https://www.usenix.org/system/files/atc20-zhao.pdf))
-18. *Design Tradeoffs for Data Deduplication Performance in Backup Workloads*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-fu.pdf)) [summary](https://yzr95924.github.io/paper_summary/DedupDesignTradeoff-FAST'15.html)
-19. *The Dilemma between Deduplication and Locality: Can Both be Achieved?*---FAST'21 ([link](https://www.usenix.org/system/files/fast21-zou.pdf)) [summary](https://yzr95924.github.io/paper_summary/MFDedup-FAST'21.html)
+15. *iDedup: Latency-aware, Inline Data Deduplication for Primary Storage*----FAST'12 ([link]( https://www.usenix.org/legacy/event/fast12/tech/full_papers/Srinivasan.pdf )) [summary](https://yzr95924.github.io/paper_summary/iDedup-FAST'12.html)
+16. *DupHunter: Flexible High-Performance Deduplication for Docker Registries*----USENIX ATC'20 ([link](https://www.usenix.org/system/files/atc20-zhao.pdf))
+17. *Design Tradeoffs for Data Deduplication Performance in Backup Workloads*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-fu.pdf)) [summary](https://yzr95924.github.io/paper_summary/DedupDesignTradeoff-FAST'15.html)
+18. *The Dilemma between Deduplication and Locality: Can Both be Achieved?*---FAST'21 ([link](https://www.usenix.org/system/files/fast21-zou.pdf)) [summary](https://yzr95924.github.io/paper_summary/MFDedup-FAST'21.html)
 19. *SLIMSTORE: A Cloud-based Deduplication System for Multi-version Backups*----ICDE'21 ([link](http://www.cs.utah.edu/~lifeifei/papers/slimstore-icde21.pdf))
 20. *Improving the Performance of Deduplication-Based Backup Systems via Container Utilization Based Hot Fingerprint Entry Distilling*----ToS'21 ([link](https://dl.acm.org/doi/full/10.1145/3459626))
-20. *Sorted Deduplication: How to Process Thousands of Backup Streams*----MSST'16 ([link](https://storageconference.us/2016/Papers/SortedDeduplication.pdf))
-20. *Deriving and Comparing Deduplication Techniques Using a Model-Based Classification*----EuroSys'15 ([link](https://dl.acm.org/doi/pdf/10.1145/2741948.2741952))
-20. *DedupSearch: Two-Phase Deduplication Aware Keyword Search*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-elias.pdf))
+21. *Sorted Deduplication: How to Process Thousands of Backup Streams*----MSST'16 ([link](https://storageconference.us/2016/Papers/SortedDeduplication.pdf))
+22. *Deriving and Comparing Deduplication Techniques Using a Model-Based Classification*----EuroSys'15 ([link](https://dl.acm.org/doi/pdf/10.1145/2741948.2741952))
 
 ### Restore Performances
 
@@ -60,7 +61,7 @@ In this repo, it records some paper related to storage system, including **Data 
 2. *ALACC: Accelerating Restore Performance of Data Deduplication Systems Using Adaptive Look-Ahead Window Assisted Chunk Caching*----FAST'18 ([link](https://www.usenix.org/system/files/conference/fast18/fast18-cao.pdf)) [summary](https://yzr95924.github.io/paper_summary/ALACC-FAST'18.html)
 3. *Reducing Impact of Data Fragmentation Caused by In-line Deduplication*----SYSTOR'12 ([link](http://9livesdata.com/wp-content/uploads/2017/04/AsPresentedOnSYSTOR-1.pdf))
 4. *Reducing Fragmentation Impact with Forward Knowledge in Backup Systems with Deduplication*----SYSTOR'15 ([link](https://dl.acm.org/doi/10.1145/2757667.2757678))
-5. *Assuring Demanded Read Performance of Data Deduplication Storage with Backup Datasets*----MASCOTS'12
+5. *Assuring Demanded Read Performance of Data Deduplication Storage with Backup Datasets*----MASCOTS'12 ([link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6298180))
 6. *Sliding Look-Back Window Assisted Data Chunk Rewriting for Improving Deduplication Restore Performance*----FAST'19 ([link](https://www.usenix.org/system/files/fast19-cao.pdf)) [summary](https://yzr95924.github.io/paper_summary/LookBackWindow-FAST'19.html)
 7. *Improving Restore Speed for Backup Systems that Use Inline Chunk-Based Deduplication*---FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final124.pdf)) [summary](https://yzr95924.github.io/paper_summary/ImproveRestore-FAST'13.html)
 8. *Chunk Fragmentation Level: An Effective Indicator for Read Performance Degradation in Deduplication Storage*----HPCC'11 
@@ -99,7 +100,7 @@ In this repo, it records some paper related to storage system, including **Data 
 29. *S2Dedup: SGX-enabled Secure Deduplication*----SYSTOR'21 ([link](https://dl.acm.org/doi/pdf/10.1145/3456727.3463773)) [summary](https://yzr95924.github.io/paper_summary/S2Dedup-SYSTOR'21.html)
 30. *Secure Deduplication of General Computations*----USENIX ATC'15 ([link](https://www.usenix.org/system/files/conference/atc15/atc15-paper-tang.pdf))
 31. *When Delta Sync Meets Message-Locked Encryption: a Feature-based Delta Sync Scheme for Encrypted Cloud Storage*----ICDCS'21 ([link](https://shenzr.github.io/publications/featuresync-icdcs21.pdf)) [summary](https://yzr95924.github.io/paper_summary/FeatureSync-ICDCS'21.html)
-31. *DUPEFS: Leaking Data Over the Network With Filesystem Deduplication Side Channels*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-bacs.pdf)) [summary](https://yzr95924.github.io/paper_summary/DeepSketch-FAST'22.html)
+31. *DUPEFS: Leaking Data Over the Network With Filesystem Deduplication Side Channels*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-bacs.pdf)) [summary](https://yzr95924.github.io/paper_summary/DUPEFS-FAST'22.html)
 
 
 ### Metadata Management
@@ -141,7 +142,10 @@ In this repo, it records some paper related to storage system, including **Data 
 13. Ddelta: A Deduplication-inspired Fast Delta Compression Approach----Performance'14 ([link](https://www.sciencedirect.com/science/article/pii/S0166531614000790))
 14. *Odess: Speeding up Resemblance Detection for Redundancy Elimination by Fast Content-Defined Sampling*----ICDE'14 ([link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9458911))
 15. *Exploring the Potential of Fast Delta Encoding: Marching to a Higher Compression Ratio*----CLUSTER'20 ([link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9229609)) [summary](https://yzr95924.github.io/paper_summary/Gdelta-CLUSTER'20.html)
-15. *DeepSketch: A New Machine Learning-Based Reference Search Technique for Post-Deduplication Delta Compression*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-park.pdf))
+15. *DeepSketch: A New Machine Learning-Based Reference Search Technique for Post-Deduplication Delta Compression*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-park.pdf)) [summary](https://yzr95924.github.io/paper_summary/DeepSketch-FAST'22.html)
+17. *DedupSearch: Two-Phase Deduplication Aware Keyword Search*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-elias.pdf)) [summary](https://yzr95924.github.io/paper_summary/DedupSearch-FAST'22.html)
+17. *To Zip or not to Zip: Effective Resource Usage for Real-Time Compression*----FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final38.pdf)) [summary](https://yzr95924.github.io/paper_summary/CompressionEst-FAST'13.html)
+17. *Adaptively Compressing IoT Data on the Resource-constrained Edge*----HotEdge'20 ([link](https://www.usenix.org/system/files/hotedge20_paper_lu.pdf))
 
 ### Memory && Block-Layer Deduplication
 
@@ -151,6 +155,8 @@ In this repo, it records some paper related to storage system, including **Data 
 4. *OrderMergeDedup: Efficient, Failure-Consistent Deduplication on Flash*----FAST'16 ([link](https://www.usenix.org/system/files/conference/fast16/fast16-papers-chen-zhuan.pdf))
 5. *CAFTL: A Content-Aware Flash Translation Layer Enhancing the Lifespan of Flash Memory based Solid State Drives*----FAST'11 ([link](https://www.usenix.org/legacy/event/fast11/tech/full_papers/Chen.pdf)) [summary](https://yzr95924.github.io/paper_summary/CAFTL-FAST'11.html)
 5. *Remap-SSD: Safely and Efficiently Exploiting SSD Address Remapping to Eliminate Duplicate Writes*----FAST'21 ([link](https://www.usenix.org/system/files/fast21-zhou.pdf))
+7. *Memory Deduplication for Serverless Computing with Medes*----EuroSys'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3492321.3524272))
+8. On the Effectiveness of Same-Domain Memory Deduplication----EuroSec'22 ([link](https://download.vusec.net/papers/dedupestreturns_eurosec22.pdf))
 
 ### Data Chunking
 1. *SS-CDC: A Two-stage Parallel Content-Defined Chunking for Deduplicating Backup Storage*----SYSTOR'19 ([link]( http://ranger.uta.edu/~sjiang/pubs/papers/ni19-ss-cdc.pdf )) [summary](https://yzr95924.github.io/paper_summary/SSCDC-SYSTOR'19.html)
@@ -171,10 +177,6 @@ In this repo, it records some paper related to storage system, including **Data 
 3. *Nitro: A Capacity-Optimized SSD Cache for Primary Storage*----USENIX ATC'14 ([link](https://www.usenix.org/system/files/conference/atc14/atc14-paper-li_cheng_nitro.pdf))
 4. *Austere Flash Caching with Deduplication and Compression*----USENIX ATC'20 ([link](https://www.usenix.org/system/files/atc20-wang-qiuping.pdf))
 
-### Benchmark
-
-1. *SDGen: Mimicking Datasets for Content Generation in Storage Benchmarks*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-gracia-tinedo.pdf))
-
 ### Garbage Collection
 
 1. *Memory Efficient Sanitization of a Deduplicated Storage System*----FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final100_0.pdf)) [summary](https://yzr95924.github.io/paper_summary/MemorySanitization-FAST'13.html)
@@ -194,8 +196,9 @@ In this repo, it records some paper related to storage system, including **Data 
 4. *Tradeoffs in Scalable Data Routing for Deduplication Clusters*----FAST'11 ([link](https://www.usenix.org/legacy/events/fast11/tech/full_papers/Dong.pdf)) [summary]( https://yzr95924.github.io/paper_summary/TradeoffDataRouting-FAST'11.html )
 5. *Cluster and Single-Node Analysis of Long-Term Deduplication Patterns*----ToS'18 ([link](https://dl.acm.org/doi/pdf/10.1145/3183890)) [summary](https://yzr95924.github.io/paper_summary/ClusterSingle-ToS'18.html)
 6. *Decentralized Deduplication in SAN Cluster File Systems*----USENIX ATC'09 ([link](https://static.usenix.org/events/usenix09/tech/full_papers/clements/clements.pdf))
-6. *GoSeed: Generating an Optimal Seeding Plan for Deduplicated Storage*----FAST'20 ([link](https://www.usenix.org/system/files/fast20-nachman.pdf))
-6. *The what, The from, and The to: The Migration Games in Deduplicated Systems*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-kisous.pdf))
+7. *HYDRAstore: A Scalable Secondary Storage*----FAST'09 ([link](http://9livesdata.com/wp-content/uploads/2017/04/HYDRAstor-A-Scalable-Secondary-Storage-1.pdf))
+8. *GoSeed: Generating an Optimal Seeding Plan for Deduplicated Storage*----FAST'20 ([link](https://www.usenix.org/system/files/fast20-nachman.pdf))
+9. *The what, The from, and The to: The Migration Games in Deduplicated Systems*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-kisous.pdf)) [summary](https://yzr95924.github.io/paper_summary/MigrationGame-FAST'22.html)
 
 ## B. Erasure Coding
 
@@ -279,6 +282,8 @@ In this repo, it records some paper related to storage system, including **Data 
 17. *Splinter: Practical Private Queries on Public Data*----NSDI'17 ([link](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-wang-frank.pdf))
 18. *Quantifying Information Leakage of Deterministic Encryption*----CCSW'19 ([link]( http://users.cs.fiu.edu/~mjura011/documents/2019_CCSW_Quantifying_Information_Leakage_of_Deterministic_Encryption )) [summary](https://yzr95924.github.io/paper_summary/QuantifyingInformationLeakage-CCSW'19.html)
 18. *Pancake: Frequency Smoothing for Encrypted Data Stores*----USENIX Security'20 ([link](https://www.usenix.org/system/files/sec20-grubbs.pdf))
+19. *Hiding the Lengths of Encrypted Message via Gaussian Padding*----CCS'21 ([link](https://dl.acm.org/doi/pdf/10.1145/3460120.3484590))
+20. *On Fingerprinting Attacks and Length-Hiding Encryption*----CT-RSA'22 ([link]())
 
 ### Secure Deletion
 
@@ -340,8 +345,9 @@ In this repo, it records some paper related to storage system, including **Data 
 11. *The Google File System*----SOSP'03 ([link](https://dl.acm.org/doi/pdf/10.1145/945445.945450))
 12. *Bigtable: A Distributed Storage System for Structured Data*----OSDI'06 ([link](https://dl.acm.org/doi/pdf/10.1145/1365815.1365816))
 13. *Duplicacy: A New Generation of Cloud Backup Tool Based on Lock-Free Deduplication*----ToCC'20 ([link](https://github.com/gilbertchen/duplicacy/blob/master/duplicacy_paper.pdf)) [summary](https://yzr95924.github.io/paper_summary/Duplicacy-ToCC'20.html)
+13. *RACS: A Case for Cloud Storage Diversity*----SoCC'10 ([link](http://pubs.0xff.co/papers/racs-socc.pdf))
 
-### New PAXOS
+### Consensus
 
 1. *In Search of an Understandable Consensus Algorithm*----USENIX ATC'14 ([link](https://raft.github.io/raft.pdf))
 
@@ -350,6 +356,7 @@ In this repo, it records some paper related to storage system, including **Data 
 1. *TinyLFU: A Highly Efficient Cache Admission Policy*----ACM ToS'17 ([link](https://arxiv.org/pdf/1512.00727.pdf))
 2. *It’s Time to Revisit LRU vs. FIFO*----HotStorage'20 ([link](https://www.usenix.org/system/files/hotstorage20_paper_eytan.pdf)) [summary](https://yzr95924.github.io/paper_summary/Cache-HotStorage'20.html) [trace](http://iotta.snia.org/traces/key-value)
 3. *Unifying the Data Center Caching Layer — Feasible? Profitable?*----HotStorage'21 ([link](https://dl.acm.org/doi/pdf/10.1145/3465332.3470884))
+4. *Learning Cache Replacement with Cacheus*----FAST'21 ([link](https://www.usenix.org/system/files/fast21-rodriguez.pdf))
 
 
 ### Hash
@@ -357,6 +364,7 @@ In this repo, it records some paper related to storage system, including **Data 
 2. *An Analysis of Compare-by-Hash*----HotOS'03 ([link](http://www.cs.utah.edu/~shanth/stuff/research/dup_elim/hash_cmp.pdf))
 3. *On-the-Fly Verification of Rateless Erasure Codes for Efficient Content Distribution*----S&P'04 ([link](https://pdos.csail.mit.edu/papers/otfvec/paper.pdf))
 4. *Algorithmic Improvements for Fast Concurrent Cuckoo Hashing*----EuroSys'14 ([link](https://www.cs.princeton.edu/~mfreed/docs/cuckoo-eurosys14.pdf))
+4. *Don’t Thrash: How to Cache your Hash on Flash*----HotStorage'11 ([link](https://www.usenix.org/legacy/events/hotstorage11/tech/final_files/Bender.pdf))
 
 ### Lock-free storage
 1. *A Lock-Free, Cache-Efficient Multi-Core Synchronization Mechanism for Line-Rate Network Traffic Monitoring*----IPDPS'10 ([link](https://www.cse.cuhk.edu.hk/~pclee/www/pubs/ipdps10.pdf))
@@ -383,6 +391,9 @@ In this repo, it records some paper related to storage system, including **Data 
 1. *From blocks to rocks: a natural extension of zoned namespaces*----HotStorage'21 ([link](https://dl.acm.org/doi/pdf/10.1145/3465332.3470870))
 1. *Don’t Be a Blockhead: Zoned Namespaces Make Work on Conventional SSDs Obsolete*----HotOS'21 ([link](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s07-stavrinos.pdf)) [summary](https://yzr95924.github.io/paper_summary/BlockHead-HotOS'21.html)
 1. Zone Append: A New Way of  Writing to Zoned Storage----Vault'20 ([link](https://www.usenix.org/system/files/vault20_slides_bjorling.pdf))
+1. *What Systems Researchers Need to Know about NAND Flash*----HotStorage'13 ([link](https://www.usenix.org/system/files/conference/hotstorage13/hotstorage13-desnoyers.pdf))
+1. *Caveat-Scriptor: Write Anywhere Shingled Disks*----HotStorage'15 ([link](https://www.usenix.org/system/files/conference/hotstorage15/hotstorage15-kadekodi.pdf))
+1. *Improving the Reliability of Next Generation SSDs using WOM-v Codes*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-jaffer.pdf))
 
 ### File system
 
@@ -393,8 +404,22 @@ In this repo, it records some paper related to storage system, including **Data 
 5. *EROFS: A Compression-friendly Readonly File System for Resource-scarce Devices*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-gao.pdf))
 5. *F2FS: A New File System for Flash Storage*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-lee.pdf))
 5. *How to Copy Files*----FAST'20 ([link](https://www.usenix.org/system/files/fast20-zhan.pdf))
+5. *BetrFS: A Compleat File System for Commodity SSDs*----EuroSys'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3492321.3519571))
+5. *The Full Path to Full-Path Indexing*----FAST'18 ([link](https://www.usenix.org/system/files/conference/fast18/fast18-zhan.pdf))
+5. *BetrFS: A Right-Optimized Write-Optimized File System*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-jannen_william.pdf))
+11. *Filesystem Aging: It's more Usage than Fullness*----HotStorage'19 ([link](https://www.cs.unc.edu/~porter/pubs/hotstorage19-paper-conway.pdf))
+12. *File Systems Fated for Senescence? Nonsense, Says Science!*----FAST'17 ([link](https://www.usenix.org/system/files/conference/fast17/fast17-conway.pdf))
 
 ### Persistent Memories
 
 1. *SLM-DB: Single-Level Key-Value Store with Persistent Memory*----FAST'19 ([link](https://www.usenix.org/system/files/fast19-kaiyrakhmet.pdf)) [summary](https://yzr95924.github.io/paper_summary/SLMDB-FAST'19.html)
 2. *Redesigning LSMs for Nonvolatile Memory with NoveLSM*----USENIX ATC'18 ([link](https://www.usenix.org/system/files/conference/atc18/atc18-kannan.pdf)) [summary](https://yzr95924.github.io/paper_summary/NoveLSM-ATC'18.html)
+
+### Data Structure
+
+1. *An Introduction to Be-trees and Write-Optimization*----USENIX Login'15 ([link](https://www.usenix.org/system/files/login/articles/login_oct15_05_bender.pdf)) [code](https://github.com/oscarlab/Be-Tree) 
+1. *Building Workload-Independent Storage with VT-Trees*----FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final165_0.pdf))
+
+### Benchmark
+
+1. *SDGen: Mimicking Datasets for Content Generation in Storage Benchmarks*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-gracia-tinedo.pdf))
