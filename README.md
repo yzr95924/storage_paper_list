@@ -58,11 +58,11 @@ Table of Contents
 ## Data Deduplication
 
 ### Summary
-1. *99 Deduplication Problems*----HotStorage'16 ([link](https://pdfs.semanticscholar.org/bd54/6dda50541489ff23fbc1e154dea50d911a43.pdf)) ([summary](https://yzr95924.github.io/paper_summary/99DeduplicationProblem-HotStorage'16.html))
-2. *A Comprehensive Study of the Past, Present, and Future on Data Deduplication*----Proceedings of the IEEE'16 ([link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7529062))
-3. *A Survey of Secure Data Deduplication Schemes for Cloud Storage Systems*----ACM Computing Surveys'17 ([link](https://dl.acm.org/citation.cfm?id=3017428))
-4. *A Survey of Classification of Storage Deduplication Systems*----ACM Computing Surveys'14 ([link](https://dl.acm.org/citation.cfm?id=2611778))
-5. *Understanding Data Deduplication Ratios*----SNIA'08 ([link](https://www.snia.org/sites/default/files/Understanding_Data_Deduplication_Ratios-20080718.pdf))
+1. *Understanding Data Deduplication Ratios*----SNIA'08 ([link](https://www.snia.org/sites/default/files/Understanding_Data_Deduplication_Ratios-20080718.pdf))
+2. *A Survey of Classification of Storage Deduplication Systems*----ACM Computing Surveys'14 ([link](https://dl.acm.org/citation.cfm?id=2611778))
+3. *A Comprehensive Study of the Past, Present, and Future on Data Deduplication*----Proceedings of the IEEE'16 ([link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7529062))
+4. *99 Deduplication Problems*----HotStorage'16 ([link](https://pdfs.semanticscholar.org/bd54/6dda50541489ff23fbc1e154dea50d911a43.pdf)) ([summary](https://yzr95924.github.io/paper_summary/99DeduplicationProblem-HotStorage'16.html))
+5. *A Survey of Secure Data Deduplication Schemes for Cloud Storage Systems*----ACM Computing Surveys'17 ([link](https://dl.acm.org/citation.cfm?id=3017428))
 6. *Backup to the Future: How Workload and Hardware Changes Continually Redefine Data Domain File Systems*----IEEE Computer'17 ([link](https://ieeexplore.ieee.org/abstract/document/7971884))
 
 ### Workload Analysis
@@ -204,41 +204,39 @@ Table of Contents
 
 ### Memory && Block-Layer Deduplication
 
-1. *UKSM: Swift Memory Deduplication via Hierarchical and Adaptive Memory Region Distilling*----FAST'18 ([link](https://www.usenix.org/system/files/conference/fast18/fast18-xia.pdf)) [summary](https://yzr95924.github.io/paper_summary/UKSM-FAST'18.html)
-2. *Using Hints to Improve Inline Block-Layer Deduplication*----FAST'16 ([link]()) [summary](https://yzr95924.github.io/paper_summary/HintsDeduplication-FAST'16.html)
-3. *XLM: More Effective Memory Deduplication Scanners through Cross-Layer Hints*----USENIX ATC'13 ([link](https://www.usenix.org/system/files/conference/atc13/atc13-miller.pdf))  
+1. *CAFTL: A Content-Aware Flash Translation Layer Enhancing the Lifespan of Flash Memory based Solid State Drives*----FAST'11 ([link](https://www.usenix.org/legacy/event/fast11/tech/full_papers/Chen.pdf)) [summary](https://yzr95924.github.io/paper_summary/CAFTL-FAST'11.html)
+2. *XLM: More Effective Memory Deduplication Scanners through Cross-Layer Hints*----USENIX ATC'13 ([link](https://www.usenix.org/system/files/conference/atc13/atc13-miller.pdf))  
+3. *Using Hints to Improve Inline Block-Layer Deduplication*----FAST'16 ([link]()) [summary](https://yzr95924.github.io/paper_summary/HintsDeduplication-FAST'16.html)
 4. *OrderMergeDedup: Efficient, Failure-Consistent Deduplication on Flash*----FAST'16 ([link](https://www.usenix.org/system/files/conference/fast16/fast16-papers-chen-zhuan.pdf))
-5. *CAFTL: A Content-Aware Flash Translation Layer Enhancing the Lifespan of Flash Memory based Solid State Drives*----FAST'11 ([link](https://www.usenix.org/legacy/event/fast11/tech/full_papers/Chen.pdf)) [summary](https://yzr95924.github.io/paper_summary/CAFTL-FAST'11.html)
-5. *Remap-SSD: Safely and Efficiently Exploiting SSD Address Remapping to Eliminate Duplicate Writes*----FAST'21 ([link](https://www.usenix.org/system/files/fast21-zhou.pdf))
+5. *UKSM: Swift Memory Deduplication via Hierarchical and Adaptive Memory Region Distilling*----FAST'18 ([link](https://www.usenix.org/system/files/conference/fast18/fast18-xia.pdf)) [summary](https://yzr95924.github.io/paper_summary/UKSM-FAST'18.html)
+6. *Remap-SSD: Safely and Efficiently Exploiting SSD Address Remapping to Eliminate Duplicate Writes*----FAST'21 ([link](https://www.usenix.org/system/files/fast21-zhou.pdf))
 7. *Memory Deduplication for Serverless Computing with Medes*----EuroSys'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3492321.3524272))
 8. *On the Effectiveness of Same-Domain Memory Deduplication*----EuroSec'22 ([link](https://download.vusec.net/papers/dedupestreturns_eurosec22.pdf))
-8. *Dedup-for-Speed: Storing Duplications in Fast Programming Mode for Enhanced Read Performance*----SYSTOR'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3534056.3534937))
+9. *Dedup-for-Speed: Storing Duplications in Fast Programming Mode for Enhanced Read Performance*----SYSTOR'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3534056.3534937))
 
 ### Data Chunking
-1. *SS-CDC: A Two-stage Parallel Content-Defined Chunking for Deduplicating Backup Storage*----SYSTOR'19 ([link]( http://ranger.uta.edu/~sjiang/pubs/papers/ni19-ss-cdc.pdf )) [summary](https://yzr95924.github.io/paper_summary/SSCDC-SYSTOR'19.html)
-2. *RapidCDC: Leveraging Duplicate Locality to Accelerate Chunking in CDC-based Deduplication Systems*----SoCC'19 ([link](http://ranger.uta.edu/~sjiang/pubs/papers/ni19-rapidcdc.pdf)) [summary](https://yzr95924.github.io/paper_summary/RapidCDC-SoCC'19.html)
-3. *Frequency Based Chunking for Data De-Duplication*----MASCOTS'10 [summary](https://yzr95924.github.io/paper_summary/FrequencyBasedChunking-MASCOTS'10.html)
-4. *Bimodal Content Defined Chunking for Backup Streams*----FAST'10
-5. *Delta: a Deduplication-inspired Fast Delta Compression Approach*----Performance'14
-6. *P-dedupe: Exploiting Parallelism in Data Deduplication System*----NAS'12
-7. *MUCH: Multi-threaded Content-Based File Chunking*----TC'15
-8. *Multi-Level Comparison of Data Deduplication in a Backup Scenario*----SYSTOR'09
-9. *A Framework for Analyzing the Improving Content-Based Chunking Algorithms*----HP Technique Report'05
-10. *FastCDC: a Fast and Efficient Content-Defined Chunking Approach for Data Deduplication*----USENIX ATC'16 ([link](https://www.usenix.org/system/files/conference/atc16/atc16-paper-xia.pdf)) [summary](https://yzr95924.github.io/paper_summary/FastCDC-ATC'16.html)
+1. *A Framework for Analyzing the Improving Content-Based Chunking Algorithms*----HP Technique Report'05 ([link](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.394.569&rep=rep1&type=pdf))
+2. *Multi-Level Comparison of Data Deduplication in a Backup Scenario*----SYSTOR'09 ([link](https://dl.acm.org/doi/abs/10.1145/1534530.1534541))
+3. *Frequency Based Chunking for Data De-Duplication*----MASCOTS'10 ([link](https://d1wqtxts1xzle7.cloudfront.net/32669314/PSFBC-libre.pdf?1391107979=&response-content-disposition=inline%3B+filename%3DPSFBC.pdf&Expires=1663993649&Signature=FTBTHVpEJbisnhRMvnK9OAIAU0rwVDIPrmVgSjOR5sNurF-EZSBabJ9UAqt9STj1ZlTS6pUMXTwvGCeMRbU2XvQP20VaGwlVVfEEgvFbGV~OFPlK7zVLEFkWZTUvVvEV~mNMYaHvdDNMferbqBtKDhv6cM~tXZJwndFN0YVAvX-~AhOyZhqdkBCQl7RKC6A3bp9sVruT8iI4FAyHsXYAVlx8NASeKkgk2-CtrnPncy7s4hUFZbf99APPIQpbvSMQiIp7vq1MasXjZS-0l51veeFYyMuzQJMAuT4nkbI5wPDPQwFLs2ZeM4ywa4DemLMO82fCyUO7AmYAgbbuQBXj~w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)) [summary](https://yzr95924.github.io/paper_summary/FrequencyBasedChunking-MASCOTS'10.html)
+4. *Bimodal Content Defined Chunking for Backup Streams*----FAST'10 ([link](https://www.usenix.org/legacy/event/fast10/tech/full_papers/kruus.pdf))
+5. *MUCH: Multi-threaded Content-Based File Chunking*----TC'15 ([link](https://oslab.kaist.ac.kr/wp-content/uploads/esos_files/publication/conferences/international/MUCH_Multithreaded_Content_Based_File_Chunking.pdf))
+6. *FastCDC: a Fast and Efficient Content-Defined Chunking Approach for Data Deduplication*----USENIX ATC'16 ([link](https://www.usenix.org/system/files/conference/atc16/atc16-paper-xia.pdf)) [summary](https://yzr95924.github.io/paper_summary/FastCDC-ATC'16.html)
+7. *SS-CDC: A Two-stage Parallel Content-Defined Chunking for Deduplicating Backup Storage*----SYSTOR'19 ([link]( http://ranger.uta.edu/~sjiang/pubs/papers/ni19-ss-cdc.pdf )) [summary](https://yzr95924.github.io/paper_summary/SSCDC-SYSTOR'19.html)
+8. *RapidCDC: Leveraging Duplicate Locality to Accelerate Chunking in CDC-based Deduplication Systems*----SoCC'19 ([link](http://ranger.uta.edu/~sjiang/pubs/papers/ni19-rapidcdc.pdf)) [summary](https://yzr95924.github.io/paper_summary/RapidCDC-SoCC'19.html)
 
 ### Cache Deduplication
 
-1. *CDAC: Content-Driven Deduplication-Aware Storage Cache*----MSST'19 ([link](http://storageconference.us/2019/Research/CDAC.pdf))
-2. *PLC-cache: Endurable SSD cache for deduplication-based primary storage*----MSST'14 ([link](https://ieeexplore.ieee.org/abstract/document/6855536))
-3. *Nitro: A Capacity-Optimized SSD Cache for Primary Storage*----USENIX ATC'14 ([link](https://www.usenix.org/system/files/conference/atc14/atc14-paper-li_cheng_nitro.pdf))
+1. *PLC-cache: Endurable SSD cache for deduplication-based primary storage*----MSST'14 ([link](https://ieeexplore.ieee.org/abstract/document/6855536))
+2. *Nitro: A Capacity-Optimized SSD Cache for Primary Storage*----USENIX ATC'14 ([link](https://www.usenix.org/system/files/conference/atc14/atc14-paper-li_cheng_nitro.pdf))
+3. *CDAC: Content-Driven Deduplication-Aware Storage Cache*----MSST'19 ([link](http://storageconference.us/2019/Research/CDAC.pdf))
 4. *Austere Flash Caching with Deduplication and Compression*----USENIX ATC'20 ([link](https://www.usenix.org/system/files/atc20-wang-qiuping.pdf))
 
 ### Garbage Collection
 
 1. *Memory Efficient Sanitization of a Deduplicated Storage System*----FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final100_0.pdf)) [summary](https://yzr95924.github.io/paper_summary/MemorySanitization-FAST'13.html)
-2. *Accelerating Restore and Garbage Collection in Deduplication-based Backup System via Exploiting Historical Information*----USENIX ATC'14 ([link](https://pdfs.semanticscholar.org/9b8d/a007a6801c9f96784dc7bc839794cb0db3ad.pdf)) [summary]( https://yzr95924.github.io/paper_summary/AcceleratingRestore-ATC'14.html )
-3. The Logic of Physical Garbage Collection in Deduplicating Storage----FAST'17 ([link](https://www.usenix.org/system/files/conference/fast17/fast17-douglis.pdf))
-4. Concurrent Deletion in a Distributed Content-addressable Storage System with Global Deduplication----FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final91.pdf))
+2. Concurrent Deletion in a Distributed Content-addressable Storage System with Global Deduplication----FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final91.pdf))
+3. *Accelerating Restore and Garbage Collection in Deduplication-based Backup System via Exploiting Historical Information*----USENIX ATC'14 ([link](https://pdfs.semanticscholar.org/9b8d/a007a6801c9f96784dc7bc839794cb0db3ad.pdf)) [summary]( https://yzr95924.github.io/paper_summary/AcceleratingRestore-ATC'14.html )
+4. The Logic of Physical Garbage Collection in Deduplicating Storage----FAST'17 ([link](https://www.usenix.org/system/files/conference/fast17/fast17-douglis.pdf))
 
 ### Network Deduplication
 
@@ -344,7 +342,7 @@ Table of Contents
 17. *Pancake: Frequency Smoothing for Encrypted Data Stores*----USENIX Security'20 ([link](https://www.usenix.org/system/files/sec20-grubbs.pdf))
 18. *Hiding the Lengths of Encrypted Message via Gaussian Padding*----CCS'21 ([link](https://dl.acm.org/doi/pdf/10.1145/3460120.3484590))
 19. *On Fingerprinting Attacks and Length-Hiding Encryption*----CT-RSA'22 ([link]())
-20. *Rethinking Block Storage Encryption with Virtual Disks*----HotStorage'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3538643.3539748))
+20. *Rethinking Block Storage Encryption with Virtual Disks*----HotStorage'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3538643.3539748)) [summary](https://yzr95924.github.io/paper_summary/BlockEnc-HotStorage'22.html)
 
 ### Secure Deletion
 
