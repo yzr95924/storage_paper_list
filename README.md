@@ -6,6 +6,7 @@ Table of Contents
 =================
 
 * [Paper Reading List of Storage Systems](#paper-reading-list-of-storage-systems)
+* [Table of Contents](#table-of-contents)
    * [Data Deduplication](#data-deduplication)
       * [Summary](#summary)
       * [Workload Analysis](#workload-analysis)
@@ -54,7 +55,8 @@ Table of Contents
       * [Deployed Systems](#deployed-systems)
       * [CXL](#cxl)
       * [Failures](#failures)
-      * [Ceph Related Research](#ceph-related-research)
+      * [Ceph Related Research](#ceph-related-research)[TOC]
+
 ## Data Deduplication
 
 ### Summary
@@ -389,20 +391,21 @@ Table of Contents
 ### Network Security
 
 1. *A Privacy-Preserving Defense Mechanism Against Request Forgery Attacks*----TrustCom'11 ([link](https://www.cse.cuhk.edu.hk/~pclee/www/pubs/trustcom11.pdf)) [summary]( https://yzr95924.github.io/paper_summary/DeRef-TrustCom'11.html )
+1. *Internet Censorship in Thailand:  User Practices and Potential Threats*----EuroS&P'17 ([link](https://csdl-downloads.ieeecomputer.org/proceedings/euros&p/2017/5762/00/07961994.pdf?Expires=1667902585&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jc2RsLWRvd25sb2Fkcy5pZWVlY29tcHV0ZXIub3JnL3Byb2NlZWRpbmdzL2V1cm9zJnAvMjAxNy81NzYyLzAwLzA3OTYxOTk0LnBkZiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY2NzkwMjU4NX19fV19&Signature=skZCrAEWp5phcchCYYqZvO~hEKM8nm5JWFNzhdJ8VzycSfr1WOJkmrP5SOSan8Yfz~gRzQ4Zo4PbKMlkWa1XzeWLLYE6N9PfqkO-HZ7lxFIw0ocrArRp21gp1Xsr2LIdLSDcep5MKnP8D2tksJn-q2tE3AagCCeACNOn2jxqiY2tWKbIXGD~DVPqQNAqxDFZOAC5e0hXP0ArEu0Inq9j3B1-IwCIBzOUPbQm7hF9Qtv3d31B6e-Xh2HVI5PQdRKPy1qZ3eHzODrV1zpsGzEe3P5~R3QnGXdGH6KonrZCUiOy~RSmlm-AAIAAbSKwZa3hW5ge5br0FVGWgUeD6SciyA__&Key-Pair-Id=K12PMWTCQBDMDT))
+1. *Accessing Google Scholar under Extreme Internet Censorship: A Legal Avenue*----Middleware'17 ([link](https://dl.acm.org/doi/pdf/10.1145/3154448.3154450?casa_token=p1UmJt_QoTAAAAAA:LRgXqXT9otor5NELcCHQTdZo174L9ojmRDN6lj9sdg1cQivs0eDceGKqWZEN-tZqqqYWaggH0SU))
+1. *How China Detects and Blocks Shadowsocks*----IMC'20 ([link](https://dl.acm.org/doi/pdf/10.1145/3419394.3423644?casa_token=bitpVokYCvsAAAAA:ydzd902e0ufL3MSAkQsRska2srfN8q73I5KeV8oVhOctv1EkNBIK8gY838xwVFplNl7rGKD8e9w))
 
 ## General Storage
-### Cloud Storage System
+### Distributed Storage System
 1. *MapReduce: Simplified Data Processing on Large Clusters*----OSDI'04 ([link](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf))
-2. *CRUSH: Controlled, Scalable, Decentralized Placement of Replicated Data*----SC'06 ([link](https://ceph.com/assets/pdfs/weil-crush-sc06.pdf))
-3. *RADOS: A Scalable, Reliable Storage Service for Petabyte-scale Storage Clusters*----PDSW'07 ([link](https://ceph.com/assets/pdfs/weil-rados-pdsw07.pdf))
-4. *Cumulus: Filesystem Backup to the Cloud*----FAST'09 ([link](https://www.usenix.org/legacy/event/fast09/tech/full_papers/vrable/vrable.pdf)) [summary](https://yzr95924.github.io/paper_summary/Cumulus-FAST'09.html)
-5. *RACS: A Case for Cloud Storage Diversity*----SoCC'10 ([link](http://pubs.0xff.co/papers/racs-socc.pdf))
-6. *The Hadoop Distributed File System*----MSST'10 ([link](http://storageconference.us/2010/Papers/MSST/Shvachko.pdf)) [summary](https://yzr95924.github.io/paper_summary/HDFS-MSST'10.html)
-7. *SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Cloud Services*----SOSP'13 ([link](https://dl.acm.org/doi/pdf/10.1145/2517349.2522730)) [summary](https://yzr95924.github.io/paper_summary/SPANStore-SOSP'13.html)
-8. *A Day Late and a Dollar Short: The Case for Research on Cloud Billing Systems*----HotCloud'14 ([link](https://rist.tech.cornell.edu/papers/billing.pdf))
-9. *CosTLO: Cost-Effective Redundancy for Lower Latency Variance on Cloud Storage Service*----NSDI'15 ([link](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-wu.pdf))
-10. *Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways*----SYSTOR'19 ([link](https://www.fsl.cs.sunysb.edu/docs/nfs4perf/kurma-systor19.pdf)) [summary](https://yzr95924.github.io/paper_summary/Kurma-SYSTOR'19.html)
-11. *Duplicacy: A New Generation of Cloud Backup Tool Based on Lock-Free Deduplication*----TCC'20 ([link](https://github.com/gilbertchen/duplicacy/blob/master/duplicacy_paper.pdf)) [summary](https://yzr95924.github.io/paper_summary/Duplicacy-ToCC'20.html)
+2. *Cumulus: Filesystem Backup to the Cloud*----FAST'09 ([link](https://www.usenix.org/legacy/event/fast09/tech/full_papers/vrable/vrable.pdf)) [summary](https://yzr95924.github.io/paper_summary/Cumulus-FAST'09.html)
+3. *RACS: A Case for Cloud Storage Diversity*----SoCC'10 ([link](http://pubs.0xff.co/papers/racs-socc.pdf))
+4. *The Hadoop Distributed File System*----MSST'10 ([link](http://storageconference.us/2010/Papers/MSST/Shvachko.pdf)) [summary](https://yzr95924.github.io/paper_summary/HDFS-MSST'10.html)
+5. *SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Cloud Services*----SOSP'13 ([link](https://dl.acm.org/doi/pdf/10.1145/2517349.2522730)) [summary](https://yzr95924.github.io/paper_summary/SPANStore-SOSP'13.html)
+6. *A Day Late and a Dollar Short: The Case for Research on Cloud Billing Systems*----HotCloud'14 ([link](https://rist.tech.cornell.edu/papers/billing.pdf))
+7. *CosTLO: Cost-Effective Redundancy for Lower Latency Variance on Cloud Storage Service*----NSDI'15 ([link](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-wu.pdf))
+8. *Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways*----SYSTOR'19 ([link](https://www.fsl.cs.sunysb.edu/docs/nfs4perf/kurma-systor19.pdf)) [summary](https://yzr95924.github.io/paper_summary/Kurma-SYSTOR'19.html)
+9. *Duplicacy: A New Generation of Cloud Backup Tool Based on Lock-Free Deduplication*----TCC'20 ([link](https://github.com/gilbertchen/duplicacy/blob/master/duplicacy_paper.pdf)) [summary](https://yzr95924.github.io/paper_summary/Duplicacy-ToCC'20.html)
 
 ### Consensus
 
@@ -431,8 +434,10 @@ Table of Contents
 1. *A Lock-Free, Cache-Efficient Multi-Core Synchronization Mechanism for Line-Rate Network Traffic Monitoring*----IPDPS'10 ([link](https://www.cse.cuhk.edu.hk/~pclee/www/pubs/ipdps10.pdf))
 2. *Lock-Free Collaboration Support for Cloud Storage Services with Operation Inference and Transformation*----FAST'20 ([link](https://www.usenix.org/system/files/fast20-chen_jian.pdf))
 
-### Block storage (SSD, NVMe)
+### SSD, NVMe
 
+1. *The Tail at Store: A Revelation from Millions of Hours of Disk and SSD Deployments*----FAST'16 ([link](https://www.usenix.org/system/files/conference/fast16/fast16-papers-hao.pdf))
+1. *The Unwritten Contract of Solid State Drives*----EuroSys'17 ([link](https://dl.acm.org/doi/pdf/10.1145/3064176.3064187))
 1. *ZNS: Avoiding the Block Interface Tax for Flash-based SSDs*----USENIX ATC'21 ([link](https://www.usenix.org/system/files/atc21-bjorling.pdf)) [code](https://github.com/westerndigitalcorporation/zenfs)
 1. *ZNS+: Advanced Zoned Namespace Interface for Supporting In-Storage Zone Compaction*----OSDI'21 ([link](https://www.usenix.org/system/files/osdi21-han.pdf))
 1. *The CASE of FEMU: Cheap, Accurate, Scalable and Extensible Flash Emulator*----FAST'18 ([link](https://www.usenix.org/system/files/conference/fast18/fast18-li.pdf)) [summary](https://yzr95924.github.io/paper_summary/FEMU-FAST'18.html)
@@ -441,6 +446,7 @@ Table of Contents
 1. Zone Append: A New Way of  Writing to Zoned Storage----Vault'20 ([link](https://www.usenix.org/system/files/vault20_slides_bjorling.pdf))
 1. *What Systems Researchers Need to Know about NAND Flash*----HotStorage'13 ([link](https://www.usenix.org/system/files/conference/hotstorage13/hotstorage13-desnoyers.pdf))
 1. *Caveat-Scriptor: Write Anywhere Shingled Disks*----HotStorage'15 ([link](https://www.usenix.org/system/files/conference/hotstorage15/hotstorage15-kadekodi.pdf))
+1. *Towards an Unwritten Contract of Intel Optane SSD*----HotStorage'19 ([link](https://www.usenix.org/system/files/hotstorage19-paper-wu-kan.pdf))
 1. *Improving the Reliability of Next Generation SSDs using WOM-v Codes*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-jaffer.pdf))
 1. *Fantastic SSD internals and how to learn and use them*----SYSTOR'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3534056.3534940))
 1. *Understanding Modern Storage APIs: A systematic study of libaio, SPDK, and io_uring*----SYSTOR'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3534056.3534945))
@@ -453,20 +459,20 @@ Table of Contents
 
 ### File system
 
-1. *XFUSE: An Infrastructure for Running Filesystem Services in User Space*----USENIX ATC'21 ([link](https://www.usenix.org/system/files/atc21-huai.pdf))
-2. *WineFS: a hugepage-aware file system for persistent memory that ages gracefully*----SOSP'21 ([link](https://www.cs.utexas.edu/~vijay/papers/winefs-sosp21.pdf))
-3. *SplitFS: persistent-memory file system that reduces software overhead*----SOSP'19 ([link](https://www.cs.utexas.edu/~vijay/papers/sosp19-splitfs.pdf))
-4. *LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism*----SOSP'21 ([link](https://dl.acm.org/doi/pdf/10.1145/3477132.3483565))
-5. *EROFS: A Compression-friendly Readonly File System for Resource-scarce Devices*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-gao.pdf))
-5. *F2FS: A New File System for Flash Storage*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-lee.pdf))
-5. *How to Copy Files*----FAST'20 ([link](https://www.usenix.org/system/files/fast20-zhan.pdf))
-5. *BetrFS: A Compleat File System for Commodity SSDs*----EuroSys'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3492321.3519571))
-5. *The Full Path to Full-Path Indexing*----FAST'18 ([link](https://www.usenix.org/system/files/conference/fast18/fast18-zhan.pdf))
-5. *BetrFS: A Right-Optimized Write-Optimized File System*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-jannen_william.pdf))
-5. *Performance and Resource Utilization of FUSE User-Space File Systems*----ACM TOS'19 ([link](https://dl.acm.org/doi/10.1145/3310148))
-11. *Filesystem Aging: It's more Usage than Fullness*----HotStorage'19 ([link](https://www.cs.unc.edu/~porter/pubs/hotstorage19-paper-conway.pdf))
-12. *File Systems Fated for Senescence? Nonsense, Says Science!*----FAST'17 ([link](https://www.usenix.org/system/files/conference/fast17/fast17-conway.pdf))
-12. *Survey of Distributed File System Design Choices*----ACM TOS'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3465405))
+1. *F2FS: A New File System for Flash Storage*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-lee.pdf))
+2. *BetrFS: A Right-Optimized Write-Optimized File System*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-jannen_william.pdf))
+3. *File Systems Fated for Senescence? Nonsense, Says Science!*----FAST'17 ([link](https://www.usenix.org/system/files/conference/fast17/fast17-conway.pdf))
+4. *The Full Path to Full-Path Indexing*----FAST'18 ([link](https://www.usenix.org/system/files/conference/fast18/fast18-zhan.pdf))
+5. *SplitFS: persistent-memory file system that reduces software overhead*----SOSP'19 ([link](https://www.cs.utexas.edu/~vijay/papers/sosp19-splitfs.pdf))
+6. *EROFS: A Compression-friendly Readonly File System for Resource-scarce Devices*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-gao.pdf))
+7. *Performance and Resource Utilization of FUSE User-Space File Systems*----ACM TOS'19 ([link](https://dl.acm.org/doi/10.1145/3310148))
+8. *Filesystem Aging: It's more Usage than Fullness*----HotStorage'19 ([link](https://www.cs.unc.edu/~porter/pubs/hotstorage19-paper-conway.pdf))
+9. *How to Copy Files*----FAST'20 ([link](https://www.usenix.org/system/files/fast20-zhan.pdf))
+10. *XFUSE: An Infrastructure for Running Filesystem Services in User Space*----USENIX ATC'21 ([link](https://www.usenix.org/system/files/atc21-huai.pdf))
+11. *WineFS: a hugepage-aware file system for persistent memory that ages gracefully*----SOSP'21 ([link](https://www.cs.utexas.edu/~vijay/papers/winefs-sosp21.pdf))
+12. *LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism*----SOSP'21 ([link](https://dl.acm.org/doi/pdf/10.1145/3477132.3483565))
+13. *BetrFS: A Compleat File System for Commodity SSDs*----EuroSys'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3492321.3519571))
+14. *Survey of Distributed File System Design Choices*----ACM TOS'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3465405))
 
 ### Persistent Memory
 
@@ -491,11 +497,12 @@ Table of Contents
 ### Deployed Systems
 
 1. *The Google File System*----SOSP'03 ([link](https://dl.acm.org/doi/pdf/10.1145/945445.945450))
-2. *Ceph: A Salable, High-Performance Distributed File System*----OSDI'06 ([link](https://www.ssrc.ucsc.edu/media/pubs/6ebbf2736ae06c66f1293b5e431082410f41f83f.pdf))
-3. *Bigtable: A Distributed Storage System for Structured Data*----OSDI'06 ([link](https://dl.acm.org/doi/pdf/10.1145/1365815.1365816))
-4. *Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service*----USENIX ATC'22 ([link](https://www.usenix.org/system/files/atc22-elhemali.pdf))
-5. *CacheSack: Admission Optimization for Google  Datacenter Flash Caches*----USENIX ATC'22 ([link](https://www.usenix.org/system/files/atc22-yang-tzu-wei.pdf))
-6. *From Luna to Solar: The Evolutions of the Compute-to-Storage Networks in Alibaba Cloud*----SIGCOMM'22 ([link](https://rmiao.github.io/assets/pdf/solar-sigcomm22.pdf))
+2. *Bigtable: A Distributed Storage System for Structured Data*----OSDI'06 ([link](https://dl.acm.org/doi/pdf/10.1145/1365815.1365816))
+3. *Finding A Needle in Haystack: Facebook’s Photo Storage*----OSDI'10 ([link](https://www.usenix.org/legacy/event/osdi10/tech/full_papers/Beaver.pdf))
+4. *f4: Facebook’s Warm BLOB Storage System*----OSDI'14 ([link](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-muralidhar.pdf))
+5. *Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service*----USENIX ATC'22 ([link](https://www.usenix.org/system/files/atc22-elhemali.pdf))
+6. *CacheSack: Admission Optimization for Google  Datacenter Flash Caches*----USENIX ATC'22 ([link](https://www.usenix.org/system/files/atc22-yang-tzu-wei.pdf))
+7. *From Luna to Solar: The Evolutions of the Compute-to-Storage Networks in Alibaba Cloud*----SIGCOMM'22 ([link](https://rmiao.github.io/assets/pdf/solar-sigcomm22.pdf))
 
 ### CXL
 
@@ -503,5 +510,19 @@ Table of Contents
 
 ### Failures
 
-1. *Metastable Failures in Distributed Systems*----HotOS'21 ([link](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s11-bronson.pdf))
-2. *Metastable Failures in the Wild*----OSDI'22 ([link](https://www.usenix.org/system/files/osdi22-huang-lexiang.pdf))
+1. *Fail-Slow at Scale: Evidence of Hardware Performance Faults in Large Production Systems*----FAST'18 ([link](https://www.usenix.org/system/files/conference/fast18/fast18-gunawi.pdf))
+2. *Metastable Failures in Distributed Systems*----HotOS'21 ([link](https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s11-bronson.pdf))
+3. *Metastable Failures in the Wild*----OSDI'22 ([link](https://www.usenix.org/system/files/osdi22-huang-lexiang.pdf))
+
+### Ceph Related Research
+
+1. *Replication Under Scalable Hashing: A Family of Algorithms for Scalable Decentralized Data Distribution*----IPDPS'04 ([link](https://www.crss.ucsc.edu/media/pubs/a85b95d7c5b7deb9e11da8ad64bf2a82f3266590.pdf))
+2. *Dynamic Metadata Management for Petabyte-scale File Systems*----SC'04 ([link](https://www.ceph.io/assets/pdfs/weil-mds-sc04.pdf))
+3. *CRUSH: Controlled, Scalable, Decentralized Placement of Replicated Data*----SC'06 ([link](https://www.ceph.io/assets/pdfs/weil-crush-sc06.pdf))
+4. *Ceph: A Scalable, High-performance Distributed File System*----OSDI'06 ([link](https://ceph.io/assets/pdfs/weil-ceph-osdi06.pdf)) ([slides](https://www3.nd.edu/~dthain/courses/cse40771/spring2007/psnowber-ceph.pdf))
+5. *The Design and Implementation of AQuA: An Adaptive Quality of Service Aware Object-Based Storage Device*----MSST'06 ([link](https://www.ssrc.ucsc.edu/media/pubs/b1d99ee4b94853287a90bdb43c631effa0290e96.pdf))
+6. *Mantle: A Programmable Metadata Load Balancer for the Ceph File System*----SC'15 ([link](https://dl.acm.org/doi/pdf/10.1145/2807591.2807607?casa_token=i2DlT3fMjhwAAAAA:36ByjcWN8uFNCjDRmzT-GHbnU1n-4k9WlhNBxwX28pE0tSYiykrcvv6lzb32V7eOfVffpbJrMG0))
+7. *File Systems Unfit as Distributed Storage Backends: Lessons from 10 Years of Ceph Evolution*----SOSP'19 ([link](https://dl.acm.org/doi/pdf/10.1145/3341301.3359656))
+8. *Design of Global Data Deduplication for A Scale-out Distributed Storage System*----ICDCS'18 ([link](https://ceph.com/assets/pdfs/ICDCS_2018_mwoh.pdf))
+9. *MAPX: Controlled Data Migration in the Expansion of Decentralized Object-Based Storage Systems*----FAST'20 ([link](https://www.usenix.org/system/files/fast20-wang_li.pdf))
+10. *Lunule: An Agile and Judicious Metadata Load Balancer for CephFS*----SC'21 ([link](https://dl.acm.org/doi/pdf/10.1145/3458817.3476196))
