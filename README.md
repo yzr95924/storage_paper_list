@@ -40,12 +40,12 @@ Table of Contents
       * [SGX Storage](#sgx-storage)
       * [Network Security](#network-security)
    * [General Storage](#general-storage)
-      * [Cloud Storage System](#cloud-storage-system)
+      * [Distributed Storage System](#distributed-storage-system)
       * [Consensus](#consensus)
       * [Cache](#cache)
       * [Hash](#hash)
       * [Lock-free storage](#lock-free-storage)
-      * [Block storage (SSD, NVMe)](#block-storage-ssd-nvme)
+      * [SSD, NVMe](#ssd-nvme)
       * [File system](#file-system)
       * [Persistent Memory](#persistent-memory)
       * [Data Structure](#data-structure)
@@ -54,7 +54,7 @@ Table of Contents
       * [Deployed Systems](#deployed-systems)
       * [CXL](#cxl)
       * [Failures](#failures)
-
+      * [Ceph Related Research](#ceph-related-research)
 ## Data Deduplication
 
 ### Summary
