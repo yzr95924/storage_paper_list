@@ -1,7 +1,7 @@
 ---
 typora-copy-images-to: ../paper_figure
 ---
-# To Zip or Not to Zip: Effective Resource Usage for Real-Time Compression
+# InftyDedup: Scalable and Cost-Effective  Cloud Tiering with Deduplication
 
 |           Venue            |       Category       |
 | :------------------------: | :------------------: |

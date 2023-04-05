@@ -57,6 +57,7 @@ Table of Contents
       * [Failures](#failures)
       * [Ceph Related Research](#ceph-related-research)
 
+
 ## Data Deduplication
 
 ### Summary
@@ -75,10 +76,10 @@ Table of Contents
 5. *A Study on Data Deduplication in HPC Storage Systems*----SC'12 ([link](https://dl.acm.org/doi/pdf/10.5555/2388996.2389006))
 6. *Inside Dropbox: Understanding Personal Cloud Storage Services*----IMC'12 ([link](https://dl.acm.org/doi/pdf/10.1145/2398776.2398827))
 7. *Insights for Data Reduction in Primary Storage: a Practical Analysis*----SYSTOR'12 ([link](https://dl.acm.org/doi/pdf/10.1145/2367589.2367606))
-8. *Modeling the Dropbox Client Behavior*----ICC'14 ([link]( https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6883506 ))
+8. *Modeling the Dropbox Client Behavior*----ICC'14 ([link]( https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6883506 )) 
 9. *Identifying Trends in Enterprise Data Protection Systems*----USENIX ATC'15 ([link](https://www.usenix.org/system/files/conference/atc15/atc15-paper-amvrosladis.pdf))
 10. *A Long-Term User-Centric Analysis of Deduplication Patterns*----MSST'16 ([link](https://www.fsl.cs.sunysb.edu/docs/msst16dedup-study/data-set-analysis.pdf))
-11. *A Simulation Analysis of Reliability in Primary Storage Deduplication*----IISWC'16
+11. *Getting back up: Understanding how enterprise data backups fail*----USENIX ATC'16 ([link](https://www.usenix.org/system/files/conference/atc16/atc16_paper-amvrosiadis.pdf))
 12. *A Simulation Analysis of Redundancy and Reliability in Primary Storage Deduplication*----TC'18 ([link]()) [summary](https://yzr95924.github.io/paper_summary/SimRedundancy-TC'18.html)
 13. *Deduplication Analyses of Multimedia System Images*----HotStorage'18 ([link](https://www.usenix.org/system/files/conference/hotedge18/hotedge18-papers-suess.pdf))
 14. *Improving Docker Registry Design based on Production Workload Analysis*----FAST'18 ([link](https://www.usenix.org/system/files/conference/fast18/fast18-anwar.pdf))
@@ -102,14 +103,16 @@ Table of Contents
 15. *Deriving and Comparing Deduplication Techniques Using a Model-Based Classification*----EuroSys'15 ([link](https://dl.acm.org/doi/pdf/10.1145/2741948.2741952))
 16. *Design Tradeoffs for Data Deduplication Performance in Backup Workloads*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-fu.pdf)) [summary](https://yzr95924.github.io/paper_summary/DedupDesignTradeoff-FAST'15.html)
 17. *Sorted Deduplication: How to Process Thousands of Backup Streams*----MSST'16 ([link](https://storageconference.us/2016/Papers/SortedDeduplication.pdf))
-18. Can't We All Get Along? Redesigning Protection Storage for Modern Workloads----USENIX ATC'18 ([link](https://www.usenix.org/system/files/conference/atc18/atc18-allu.pdf)) [summary](https://yzr95924.github.io/paper_summary/Redesigning-ATC'18.html)
-19. *Data Domain Cloud Tier: Backup here, Backup there, Deduplicated Everywhere!*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-duggal.pdf)) [summary]( https://yzr95924.github.io/paper_summary/CloudTier-ATC'19.html )
-20. *SmartDedup: Optimizing Deduplication for Resource-constrained Devices*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-yang-qirui.pdf))
-21. *DupHunter: Flexible High-Performance Deduplication for Docker Registries*----USENIX ATC'20 ([link](https://www.usenix.org/system/files/atc20-zhao.pdf))
-22. *The Dilemma between Deduplication and Locality: Can Both be Achieved?*---FAST'21 ([link](https://www.usenix.org/system/files/fast21-zou.pdf)) [summary](https://yzr95924.github.io/paper_summary/MFDedup-FAST'21.html)
-23. *SLIMSTORE: A Cloud-based Deduplication System for Multi-version Backups*----ICDE'21 ([link](http://www.cs.utah.edu/~lifeifei/papers/slimstore-icde21.pdf))
-24. *Improving the Performance of Deduplication-Based Backup Systems via Container Utilization Based Hot Fingerprint Entry Distilling*----ACM TOS'21 ([link](https://dl.acm.org/doi/full/10.1145/3459626))
-25. *DedupSearch: Two-Phase Deduplication Aware Keyword Search*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-elias.pdf)) [summary](https://yzr95924.github.io/paper_summary/DedupSearch-FAST'22.html)
+18. *Backup to the future: How workload and hardware changes continually redefine data domain file systems*----TC'17 ([link](https://ieeexplore.ieee.org/document/7971884/))
+19. Can't We All Get Along? Redesigning Protection Storage for Modern Workloads----USENIX ATC'18 ([link](https://www.usenix.org/system/files/conference/atc18/atc18-allu.pdf)) [summary](https://yzr95924.github.io/paper_summary/Redesigning-ATC'18.html)
+20. *Data Domain Cloud Tier: Backup here, Backup there, Deduplicated Everywhere!*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-duggal.pdf)) [summary]( https://yzr95924.github.io/paper_summary/CloudTier-ATC'19.html )
+21. *SmartDedup: Optimizing Deduplication for Resource-constrained Devices*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-yang-qirui.pdf))
+22. *DupHunter: Flexible High-Performance Deduplication for Docker Registries*----USENIX ATC'20 ([link](https://www.usenix.org/system/files/atc20-zhao.pdf))
+23. *The Dilemma between Deduplication and Locality: Can Both be Achieved?*---FAST'21 ([link](https://www.usenix.org/system/files/fast21-zou.pdf)) [summary](https://yzr95924.github.io/paper_summary/MFDedup-FAST'21.html)
+24. *SLIMSTORE: A Cloud-based Deduplication System for Multi-version Backups*----ICDE'21 ([link](http://www.cs.utah.edu/~lifeifei/papers/slimstore-icde21.pdf))
+25. *Improving the Performance of Deduplication-Based Backup Systems via Container Utilization Based Hot Fingerprint Entry Distilling*----ACM TOS'21 ([link](https://dl.acm.org/doi/full/10.1145/3459626))
+26. *DedupSearch: Two-Phase Deduplication Aware Keyword Search*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-elias.pdf)) [summary](https://yzr95924.github.io/paper_summary/DedupSearch-FAST'22.html)
+27. *InftyDedup: Scalable and Cost-Effective Cloud Tiering with Deduplication*----FAST'23 ([link](https://www.usenix.org/system/files/fast23-kotlarska.pdf)) [summary](https://yzr95924.github.io/paper_summary/InftyDedup-FAST'23.html)
 
 ### Restore Performances
 
@@ -283,6 +286,7 @@ Table of Contents
 
 ### EC Framework
 1. *OpenEC: Toward Unified and Configurable Erasure Coding Management in Distributed Storage Systems*----FAST'19
+1. *ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage*----FAST'23 ([link](https://www.cse.cuhk.edu.hk/~pclee/www/pubs/fast23pararc.pdf))
 
 ### New EC code
 1. *CodePlugin: Plugging Deduplication into Erasure Coding for Cloud Storage*----HotCloud'15
@@ -394,6 +398,7 @@ Table of Contents
 1. *Internet Censorship in Thailand:  User Practices and Potential Threats*----EuroS&P'17 ([link](https://csdl-downloads.ieeecomputer.org/proceedings/euros&p/2017/5762/00/07961994.pdf?Expires=1667902585&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jc2RsLWRvd25sb2Fkcy5pZWVlY29tcHV0ZXIub3JnL3Byb2NlZWRpbmdzL2V1cm9zJnAvMjAxNy81NzYyLzAwLzA3OTYxOTk0LnBkZiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY2NzkwMjU4NX19fV19&Signature=skZCrAEWp5phcchCYYqZvO~hEKM8nm5JWFNzhdJ8VzycSfr1WOJkmrP5SOSan8Yfz~gRzQ4Zo4PbKMlkWa1XzeWLLYE6N9PfqkO-HZ7lxFIw0ocrArRp21gp1Xsr2LIdLSDcep5MKnP8D2tksJn-q2tE3AagCCeACNOn2jxqiY2tWKbIXGD~DVPqQNAqxDFZOAC5e0hXP0ArEu0Inq9j3B1-IwCIBzOUPbQm7hF9Qtv3d31B6e-Xh2HVI5PQdRKPy1qZ3eHzODrV1zpsGzEe3P5~R3QnGXdGH6KonrZCUiOy~RSmlm-AAIAAbSKwZa3hW5ge5br0FVGWgUeD6SciyA__&Key-Pair-Id=K12PMWTCQBDMDT))
 1. *Accessing Google Scholar under Extreme Internet Censorship: A Legal Avenue*----Middleware'17 ([link](https://dl.acm.org/doi/pdf/10.1145/3154448.3154450?casa_token=p1UmJt_QoTAAAAAA:LRgXqXT9otor5NELcCHQTdZo174L9ojmRDN6lj9sdg1cQivs0eDceGKqWZEN-tZqqqYWaggH0SU))
 1. *How China Detects and Blocks Shadowsocks*----IMC'20 ([link](https://dl.acm.org/doi/pdf/10.1145/3419394.3423644?casa_token=bitpVokYCvsAAAAA:ydzd902e0ufL3MSAkQsRska2srfN8q73I5KeV8oVhOctv1EkNBIK8gY838xwVFplNl7rGKD8e9w))
+1. *How the Great Firewall of China Detects and Blocks Fully Encrypted Traffic*----USENIX Security'23 ([link](https://people.cs.umass.edu/~amir/papers/UsenixSecurity23_Encrypted_Censorship.pdf))
 
 ## General Storage
 ### Distributed Storage System
@@ -526,9 +531,10 @@ Table of Contents
 4. *Ceph: A Scalable, High-performance Distributed File System*----OSDI'06 ([link](https://ceph.io/assets/pdfs/weil-ceph-osdi06.pdf)) ([slides](https://www3.nd.edu/~dthain/courses/cse40771/spring2007/psnowber-ceph.pdf))
 5. *The Design and Implementation of AQuA: An Adaptive Quality of Service Aware Object-Based Storage Device*----MSST'06 ([link](https://www.ssrc.ucsc.edu/media/pubs/b1d99ee4b94853287a90bdb43c631effa0290e96.pdf))
 6. *Mantle: A Programmable Metadata Load Balancer for the Ceph File System*----SC'15 ([link](https://dl.acm.org/doi/pdf/10.1145/2807591.2807607?casa_token=i2DlT3fMjhwAAAAA:36ByjcWN8uFNCjDRmzT-GHbnU1n-4k9WlhNBxwX28pE0tSYiykrcvv6lzb32V7eOfVffpbJrMG0))
-7. *Design of Global Data Deduplication for A Scale-out Distributed Storage System*----ICDCS'18 ([link](https://ceph.com/assets/pdfs/ICDCS_2018_mwoh.pdf))
-8. *File Systems Unfit as Distributed Storage Backends: Lessons from 10 Years of Ceph Evolution*----SOSP'19 ([link](https://dl.acm.org/doi/pdf/10.1145/3341301.3359656))  [summary](https://yzr95924.github.io/paper_summary/BlueStore-SOSP'19.html)
-9. *MAPX: Controlled Data Migration in the Expansion of Decentralized Object-Based Storage Systems*----FAST'20 ([link](https://www.usenix.org/system/files/fast20-wang_li.pdf))
-10. *Lunule: An Agile and Judicious Metadata Load Balancer for CephFS*----SC'21 ([link](https://dl.acm.org/doi/pdf/10.1145/3458817.3476196))
-11. *Speculative Recovery: Cheap, Highly Available Fault Tolerance with Disaggregated Storage*----USENIX ATC‘22 ([link](https://www.usenix.org/system/files/atc22-li-nanqinqin.pdf))
-12. *InfiniFS: An Efficient Metadata Service for Large-Scale Distributed Filesystems*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-lv.pdf))
+7. *Understanding Write Behaviors of Storage Backends in Ceph Object Store*----MSST'17 ([link](http://csl.skku.edu/papers/msst17.pdf)) [slides](https://storageconference.us/2017/Presentations/CephObjectStore-slides.pdf)
+8. *Design of Global Data Deduplication for A Scale-out Distributed Storage System*----ICDCS'18 ([link](https://ceph.com/assets/pdfs/ICDCS_2018_mwoh.pdf))
+9. *File Systems Unfit as Distributed Storage Backends: Lessons from 10 Years of Ceph Evolution*----SOSP'19 ([link](https://dl.acm.org/doi/pdf/10.1145/3341301.3359656))  [summary](https://yzr95924.github.io/paper_summary/BlueStore-SOSP'19.html)
+10. *MAPX: Controlled Data Migration in the Expansion of Decentralized Object-Based Storage Systems*----FAST'20 ([link](https://www.usenix.org/system/files/fast20-wang_li.pdf))
+11. *Lunule: An Agile and Judicious Metadata Load Balancer for CephFS*----SC'21 ([link](https://dl.acm.org/doi/pdf/10.1145/3458817.3476196))
+12. *Speculative Recovery: Cheap, Highly Available Fault Tolerance with Disaggregated Storage*----USENIX ATC‘22 ([link](https://www.usenix.org/system/files/atc22-li-nanqinqin.pdf))
+13. *InfiniFS: An Efficient Metadata Service for Large-Scale Distributed Filesystems*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-lv.pdf))
