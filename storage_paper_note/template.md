@@ -1,7 +1,7 @@
 ---
 typora-copy-images-to: ../paper_figure
 ---
-# InftyDedup: Scalable and Cost-Effective  Cloud Tiering with Deduplication
+# Light-Dedup: A Light-weight Inline Deduplication Framework for Non-Volatile Memory File Systems
 
 |           Venue            |       Category       |
 | :------------------------: | :------------------: |
