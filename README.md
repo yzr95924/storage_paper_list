@@ -1,9 +1,8 @@
 # Paper Reading List of Storage Systems
 
-A reading list related to storage system, including data deduplication, erasure coding, general storage and other related topics (i.e., Security...), updating from time to time~
+A reading list related to storage systems, including data deduplication, erasure coding, general storage and other related topics (i.e., Security...), updating from time to time~
 
 * [Paper Reading List of Storage Systems](#paper-reading-list-of-storage-systems)
-* [Table of Contents](#table-of-contents)
    * [Data Deduplication](#data-deduplication)
       * [Summary](#summary)
       * [Workload Analysis](#workload-analysis)
@@ -55,6 +54,7 @@ A reading list related to storage system, including data deduplication, erasure 
       * [CXL](#cxl)
       * [Failures](#failures)
       * [Ceph Related Research](#ceph-related-research)
+      * [HPC Storage](#hpc-storage)
 
 ## Data Deduplication
 
@@ -438,6 +438,7 @@ A reading list related to storage system, including data deduplication, erasure 
 7. *Kangaroo: Caching Billions of Tiny Objects on Flash*----SOSP'21 ([link](https://jasony.me/publications/sosp21-kangaroo.pdf))
 8. *Segcache: a Memory-efficient and Scalable In-memory Key-value Cache for Small Objects*----NSDI'21 ([link](https://jasony.me/publications/nsdi21-segcache.pdf))
 9. *FarReach: Write-back Caching in Programmable Switches*----USENIX ATC'23 ([link](http://www.cse.cuhk.edu.hk/~pclee/www/pubs/atc23.pdf))
+10. *FIFO can be Better than LRU: the Power of Lazy Promotion and Quick Demotion*----HotOS'23 ([link](https://www.pdl.cmu.edu/PDL-FTP/Storage/Yang-FIFO-HotOS23.pdf))
 
 
 ### Hash
@@ -453,6 +454,8 @@ A reading list related to storage system, including data deduplication, erasure 
 
 ### SSD, NVMe
 
+1. *Design Tradeoffs for SSD Performance*----USENIX ATC'08 ([link](https://www.usenix.org/legacy/events/usenix08/tech/full_papers/agrawal/agrawal.pdf))
+1. *Design Tradeoffs for SSD Reliability*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/fast19-kim-bryan.pdf))
 1. *The Tail at Store: A Revelation from Millions of Hours of Disk and SSD Deployments*----FAST'16 ([link](https://www.usenix.org/system/files/conference/fast16/fast16-papers-hao.pdf))
 1. *The Unwritten Contract of Solid State Drives*----EuroSys'17 ([link](https://dl.acm.org/doi/pdf/10.1145/3064176.3064187))
 1. *ZNS: Avoiding the Block Interface Tax for Flash-based SSDs*----USENIX ATC'21 ([link](https://www.usenix.org/system/files/atc21-bjorling.pdf)) [code](https://github.com/westerndigitalcorporation/zenfs)
@@ -466,33 +469,36 @@ A reading list related to storage system, including data deduplication, erasure 
 1. *Towards an Unwritten Contract of Intel Optane SSD*----HotStorage'19 ([link](https://www.usenix.org/system/files/hotstorage19-paper-wu-kan.pdf))
 1. *Improving the Reliability of Next Generation SSDs using WOM-v Codes*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-jaffer.pdf))
 1. *Fantastic SSD internals and how to learn and use them*----SYSTOR'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3534056.3534940))
-1. *Understanding NVMe Zoned Namespace (ZNS) Flash SSD Storage Devices*----ArXiv ([link](https://arxiv.org/pdf/2206.01547.pdf))
+1. *Understanding NVMe Zoned Namespace (ZNS) Flash SSD Storage Devices*----arxiv'22 ([link](https://arxiv.org/pdf/2206.01547.pdf))
 1. *Compaction-Aware Zone Allocation for LSM based Key-Value Store on ZNS SSDs*----HotStorage'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3538643.3539743))
 1. *Lifetime-leveling LSM-tree Compaction for ZNS SSD*----HotStorage'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3538643.3539741))
 1. *What You Can't Forget: Exploiting Parallelism for Zoned Namespaces*----HotStorage'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3538643.3539744))
 1. *NVMe SSD Failures in the Field:  the Fail-Stop and the Fail-Slow*----USENIX ATC'22 ([link](https://www.usenix.org/system/files/atc22-lu.pdf))
 1. *Offline and Online Algorithms for SSD Management*----ACM TOS'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3491045))
 1. *NVMeVirt: A Versatile Software-defined Virtual NVMe Device*----FAST'23 ([link](https://www.usenix.org/system/files/fast23-kim.pdf))
+1. *Excessive SSD-Internal Parallelism Considered Harmful*----HotStorage'23 ([link](https://dl.acm.org/doi/pdf/10.1145/3599691.3603412))
+1. *Is Garbage Collection Overhead Gone? Case study of F2FS on ZNS SSDs*----HotStorage'23 ([link](https://dl.acm.org/doi/pdf/10.1145/3599691.3603409))
 
 ### File system
 
 1. *Scale and Concurrency of GIGA+: File System Directories with Millions of Files*----FAST''11 ([link](https://www.usenix.org/legacy/event/fast11/tech/full_papers/PatilNew.pdf))
 2. *Journaling of Journal Is (Almost) Free*----FAST'14 ([link](https://www.usenix.org/system/files/conference/fast14/fast14-paper_shen.pdf))
 3. *F2FS: A New File System for Flash Storage*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-lee.pdf))
-4. *BetrFS: A Right-Optimized Write-Optimized File System*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-jannen_william.pdf))
-5. *File Systems Fated for Senescence? Nonsense, Says Science!*----FAST'17 ([link](https://www.usenix.org/system/files/conference/fast17/fast17-conway.pdf))
-6. *To FUSE or Not to FUSE: Performance of  User-Space File Systems*----FAST'17 ([link](https://www.usenix.org/system/files/conference/fast17/fast17-vangoor.pdf))
-7. *The Full Path to Full-Path Indexing*----FAST'18 ([link](https://www.usenix.org/system/files/conference/fast18/fast18-zhan.pdf))
-8. *SplitFS: persistent-memory file system that reduces software overhead*----SOSP'19 ([link](https://www.cs.utexas.edu/~vijay/papers/sosp19-splitfs.pdf))
-9. *EROFS: A Compression-friendly Readonly File System for Resource-scarce Devices*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-gao.pdf))
-10. *Performance and Resource Utilization of FUSE User-Space File Systems*----ACM TOS'19 ([link](https://dl.acm.org/doi/10.1145/3310148))
-11. *Filesystem Aging: It's more Usage than Fullness*----HotStorage'19 ([link](https://www.cs.unc.edu/~porter/pubs/hotstorage19-paper-conway.pdf))
-12. *How to Copy Files*----FAST'20 ([link](https://www.usenix.org/system/files/fast20-zhan.pdf))
-13. *XFUSE: An Infrastructure for Running Filesystem Services in User Space*----USENIX ATC'21 ([link](https://www.usenix.org/system/files/atc21-huai.pdf))
-14. *WineFS: a hugepage-aware file system for persistent memory that ages gracefully*----SOSP'21 ([link](https://www.cs.utexas.edu/~vijay/papers/winefs-sosp21.pdf))
-15. *LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism*----SOSP'21 ([link](https://dl.acm.org/doi/pdf/10.1145/3477132.3483565))
-16. *BetrFS: A Compleat File System for Commodity SSDs*----EuroSys'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3492321.3519571))
-17. *Survey of Distributed File System Design Choices*----ACM TOS'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3465405))
+4. *POSIX is Dead! Long Live... errr... What Exactly?*----HotStorage'15 ([link](https://www.fsl.cs.stonybrook.edu/docs/cosy-hotos/hotstorage17posux.pdf))
+5. *BetrFS: A Right-Optimized Write-Optimized File System*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-jannen_william.pdf))
+6. *File Systems Fated for Senescence? Nonsense, Says Science!*----FAST'17 ([link](https://www.usenix.org/system/files/conference/fast17/fast17-conway.pdf))
+7. *To FUSE or Not to FUSE: Performance of  User-Space File Systems*----FAST'17 ([link](https://www.usenix.org/system/files/conference/fast17/fast17-vangoor.pdf))
+8. *The Full Path to Full-Path Indexing*----FAST'18 ([link](https://www.usenix.org/system/files/conference/fast18/fast18-zhan.pdf))
+9. *SplitFS: persistent-memory file system that reduces software overhead*----SOSP'19 ([link](https://www.cs.utexas.edu/~vijay/papers/sosp19-splitfs.pdf))
+10. *EROFS: A Compression-friendly Readonly File System for Resource-scarce Devices*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-gao.pdf))
+11. *Performance and Resource Utilization of FUSE User-Space File Systems*----ACM TOS'19 ([link](https://dl.acm.org/doi/10.1145/3310148))
+12. *Filesystem Aging: It's more Usage than Fullness*----HotStorage'19 ([link](https://www.cs.unc.edu/~porter/pubs/hotstorage19-paper-conway.pdf))
+13. *How to Copy Files*----FAST'20 ([link](https://www.usenix.org/system/files/fast20-zhan.pdf))
+14. *XFUSE: An Infrastructure for Running Filesystem Services in User Space*----USENIX ATC'21 ([link](https://www.usenix.org/system/files/atc21-huai.pdf))
+15. *WineFS: a hugepage-aware file system for persistent memory that ages gracefully*----SOSP'21 ([link](https://www.cs.utexas.edu/~vijay/papers/winefs-sosp21.pdf))
+16. *LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism*----SOSP'21 ([link](https://dl.acm.org/doi/pdf/10.1145/3477132.3483565))
+17. *BetrFS: A Compleat File System for Commodity SSDs*----EuroSys'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3492321.3519571))
+18. *Survey of Distributed File System Design Choices*----ACM TOS'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3465405))
 
 ### Non-volatile Memory
 
@@ -556,3 +562,14 @@ A reading list related to storage system, including data deduplication, erasure 
 12. *Speculative Recovery: Cheap, Highly Available Fault Tolerance with Disaggregated Storage*----USENIX ATC‘22 ([link](https://www.usenix.org/system/files/atc22-li-nanqinqin.pdf))
 13. *InfiniFS: An Efficient Metadata Service for Large-Scale Distributed Filesystems*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-lv.pdf))
 14. *TiDedup: A New Distributed Deduplication Architecture for Ceph*----USENIX ATC'23 ([link](https://www.usenix.org/system/files/atc23-oh.pdf))
+
+### HPC Storage
+
+1. *GPFS: A Shared-Disk File System for Large Computing Clusters*----FAST'02 ([link](https://www.usenix.org/legacy/publications/library/proceedings/fast02/full_papers/schmuck/schmuck.pdf))
+2. *Taking back control of HPC file systems with Robinhood Policy Engine*----arxiv'15 ([link](https://arxiv.org/abs/1505.01448))
+3. *LPCC: Hierarchical Persistent  Client Caching for Lustre*----SC'19 ([link](https://dl.acm.org/doi/pdf/10.1145/3295500.3356139)) [slides](https://sc19.supercomputing.org/proceedings/tech_paper/tech_paper_files/pap112s5.pdf) 
+4. *HadaFS: A File System Bridging the Local and  Shared Burst Buffer for Exascale Supercomputers*----FAST'23 ([link](https://www.usenix.org/system/files/fast23-he.pdf)) 
+5. *Accelerating I/O performance of ZFS-based Lustre file system in HPC environment*----Journal of Supercomputin g'23 ([link](https://link.springer.com/article/10.1007/s11227-022-04966-7))
+6. *MetaWBC: POSIX-compliant Metadata Write-back Caching for Distributed File Systems*----SC'22 ([link](https://dl.acm.org/doi/pdf/10.5555/3571885.3571959))
+7. *Xfast: Extreme File Attribute Stat Acceleration for Lustre*----SC'23 ([link](https://dl.acm.org/doi/10.1145/3581784.3607080)) [slides](http://lustrefs.cn/wp-content/uploads/2023/11/CLUG2023_12_Emoly_Liu_Qian_Yingjin_Xfast_Extreme_File_Attribute_Stat_Acceleration_for_Lustre.pdf)
+
