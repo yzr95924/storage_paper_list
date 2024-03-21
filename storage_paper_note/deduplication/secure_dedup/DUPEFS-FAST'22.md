@@ -3,8 +3,8 @@ typora-copy-images-to: ../paper_figure
 ---
 DUPEFS: Leaking Data Over the Network With Filesystem Deduplication Side Channels
 ------------------------------------------
-|           Venue            |       Category       |
-| :------------------------: | :------------------: |
+|  Venue  |       Category       |
+| :-----: | :------------------: |
 | FAST'22 | Secure Deduplication |
 [TOC]
 

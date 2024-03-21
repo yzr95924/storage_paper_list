@@ -56,8 +56,6 @@ A reading list related to storage systems, including data deduplication, erasure
 22. *The Dilemma between Deduplication and Locality: Can Both be Achieved?*---FAST'21 ([link](https://www.usenix.org/system/files/fast21-zou.pdf)) [summary](https://yzr95924.github.io/paper_summary/MFDedup-FAST'21.html)
 23. *SLIMSTORE: A Cloud-based Deduplication System for Multi-version Backups*----ICDE'21 ([link](http://www.cs.utah.edu/~lifeifei/papers/slimstore-icde21.pdf))
 24. *Improving the Performance of Deduplication-Based Backup Systems via Container Utilization Based Hot Fingerprint Entry Distilling*----ACM TOS'21 ([link](https://dl.acm.org/doi/full/10.1145/3459626))
-25. *DedupSearch: Two-Phase Deduplication Aware Keyword Search*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-elias.pdf)) [summary](https://yzr95924.github.io/paper_summary/DedupSearch-FAST'22.html)
-26. *Physical vs. Logical Indexing with IDEA: Inverted Deduplication-Aware Index*----FAST'24 ([link](https://www.usenix.org/system/files/fast24-levi.pdf))
 
 ### Restore Performances
 
@@ -135,7 +133,7 @@ A reading list related to storage systems, including data deduplication, erasure
 1. *Data Domain Cloud Tier: Backup here, Backup there, Deduplicated Everywhere!*----USENIX ATC'19 ([link](https://www.usenix.org/system/files/atc19-duggal.pdf)) [summary]( https://yzr95924.github.io/paper_summary/CloudTier-ATC'19.html )
 2. *InftyDedup: Scalable and Cost-Effective Cloud Tiering with Deduplication*----FAST'23 ([link](https://www.usenix.org/system/files/fast23-kotlarska.pdf)) [summary](https://yzr95924.github.io/paper_summary/InftyDedup-FAST'23.html)
 
-### Post-Deduplication: Data Compression and Delta Compression
+### Post-Deduplication: Data Compression, Delta Compression, and Application
 1. *Redundancy Elimination Within Large Collections of Files*----USENIX ATC'04 ([link](https://www.usenix.org/legacy/publications/library/proceedings/usenix04/tech/general/full_papers/kulkarni/kulkarni.pdf))
 2. *The Design of a Similarity Based Deduplication System*----SYSTOR'09 ([link](https://dl.acm.org/doi/pdf/10.1145/1534530.1534539))
 3. *Delta Compressed and Deduplicated Storage Using Stream-Informed Locality*----HotStorage'12 ([link](https://www.usenix.org/system/files/conference/hotstorage12/hotstorage12-final38_0.pdf)) [summary](https://yzr95924.github.io/paper_summary/deltaStore-HotStorage'12.html)
@@ -158,6 +156,8 @@ A reading list related to storage systems, including data deduplication, erasure
 20. *Donag: Generating Eficient Patches and Difs for Compressed Archives*----ACM TOS'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3507919))
 21. *LoopDelta: Embedding Locality-aware Opportunistic Delta Compression in Inline Deduplication for Highly Efficient Data Reduction*----USENIX ATC'23 ([link](https://www.usenix.org/system/files/atc23-zhang-yucheng.pdf))
 22. *Palantir: Hierarchical Similarity Detection for Post-Deduplication Delta Compression*----ASPLOS'24 ([link](https://qiangsu97.github.io/files/asplos24spring-final6.pdf))
+23. *DedupSearch: Two-Phase Deduplication Aware Keyword Search*----FAST'22 ([link](https://www.usenix.org/system/files/fast22-elias.pdf)) [summary](https://yzr95924.github.io/paper_summary/DedupSearch-FAST'22.html)
+24. *Physical vs. Logical Indexing with IDEA: Inverted Deduplication-Aware Index*----FAST'24 ([link](https://www.usenix.org/system/files/fast24-levi.pdf)) [summary](https://yzr95924.github.io/paper_summary/IDEA-FAST'24.html)
 
 ### Memory && Block-Layer Deduplication
 
@@ -517,7 +517,7 @@ A reading list related to storage systems, including data deduplication, erasure
 ### HPC Storage
 
 1. *GPFS: A Shared-Disk File System for Large Computing Clusters*----FAST'02 ([link](https://www.usenix.org/legacy/publications/library/proceedings/fast02/full_papers/schmuck/schmuck.pdf))
-2. *Efficient Object Storage Journaling in a Distributed Parallel File System*----FAST'10 ([link](Efficient Object Storage Journaling in a Distributed Parallel File System))
+2. *Efficient Object Storage Journaling in a Distributed Parallel File System*----FAST'10 ([link](https://www.usenix.org/legacy/events/fast10/tech/full_papers/oral.pdf))
 3. *Taking back control of HPC file systems with Robinhood Policy Engine*----arxiv'15 ([link](https://arxiv.org/abs/1505.01448))
 4. *Lustre Lockahead: Early Experience and Performance using Optimized Locking*----CUG'17 ([link](https://cug.org/proceedings/cug2017_proceedings/includes/files/pap141s2-file1.pdf))
 5. *LPCC: Hierarchical Persistent  Client Caching for Lustre*----SC'19 ([link](https://dl.acm.org/doi/pdf/10.1145/3295500.3356139)) [slides](https://sc19.supercomputing.org/proceedings/tech_paper/tech_paper_files/pap112s5.pdf)

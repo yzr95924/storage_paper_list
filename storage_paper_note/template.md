@@ -1,11 +1,11 @@
 ---
 typora-copy-images-to: ../paper_figure
 ---
-# Light-Dedup: A Light-weight Inline Deduplication Framework for Non-Volatile Memory File Systems
+# Physical vs. Logical Indexing with IDEA: Inverted Deduplication-Aware Index
 
 |           Venue            |       Category       |
 | :------------------------: | :------------------: |
-| ATC'18 | LSM+PM |
+| FAST'24 | Deduplicated System Design, post-deduplication application |
 [TOC]
 
 ## 1. Summary
