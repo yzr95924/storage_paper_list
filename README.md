@@ -581,6 +581,14 @@ A reading list related to storage systems, including data deduplication, erasure
 
 ## Storage + AI
 
-### LLM in Storage
+### AI for Storage
 
 1. *Can Modern LLMs Tune and Configure LSM-based Key-Value Stores?*----HotStorage'24 ([link](https://asu-idi.github.io/publications/files/HS24_GPT_Project.pdf))
+
+### Storage for AI
+
+1. *An I/O Characterizing Study of Offloading LLM Models and KV Caches to NVMe SSD*----CHEOPS@EuroSys'25 ([link](https://dl.acm.org/doi/pdf/10.1145/3719330.3721230))
+
+## Potpourri
+
+1. *PolyStore: Exploiting Combined Capabilities of Heterogeneous Storage*----FAST'25 ([link](https://www.usenix.org/system/files/fast25-ren.pdf)) [summary](https://yzr95924.uk:443/s/cf3e8e25-5a40-47ba-bc3f-35d171c86435)
