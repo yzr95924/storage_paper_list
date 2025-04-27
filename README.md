@@ -2,8 +2,6 @@
 
 A reading list related to storage systems, including data deduplication, erasure coding, general storage and other related topics (i.e., Security...), updating from time to time~
 
-[TOC]
-
 ## Data Deduplication
 
 ### Summary
