@@ -590,3 +590,10 @@ A reading list related to storage systems, including data deduplication, erasure
 ## Potpourri
 
 1. *PolyStore: Exploiting Combined Capabilities of Heterogeneous Storage*----FAST'25 ([link](https://www.usenix.org/system/files/fast25-ren.pdf)) [summary](https://yzr95924.uk:443/s/cf3e8e25-5a40-47ba-bc3f-35d171c86435)
+
+## Data Process
+
+### Lakehouse
+
+1. *Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics*----CIDR'21 ([link](https://15721.courses.cs.cmu.edu/spring2023/papers/02-modern/armbrust-cidr21.pdf))
+2. *Shared Foundations: Modernizing Meta’s Data Lakehouse*----CIDR'23 ([link](https://mail.vldb.org/cidrdb/papers/2023/p77-chattopadhyay.pdf))
