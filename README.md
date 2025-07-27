@@ -595,5 +595,5 @@ A reading list related to storage systems, including data deduplication, erasure
 
 ### Lakehouse
 
-1. *Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics*----CIDR'21 ([link](https://15721.courses.cs.cmu.edu/spring2023/papers/02-modern/armbrust-cidr21.pdf))
+1. *Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics*----CIDR'21 ([link](https://15721.courses.cs.cmu.edu/spring2023/papers/02-modern/armbrust-cidr21.pdf)) [summary](https://yzr95924.uk:443/s/53927998-33ab-47fa-88ed-83d7cac088d9)
 2. *Shared Foundations: Modernizing Meta’s Data Lakehouse*----CIDR'23 ([link](https://mail.vldb.org/cidrdb/papers/2023/p77-chattopadhyay.pdf))
