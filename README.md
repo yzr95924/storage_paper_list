@@ -585,6 +585,7 @@ A reading list related to storage systems, including data deduplication, erasure
 
 ### Storage for AI
 
+1. *DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node*----NIPS'19 ([link](https://proceedings.neurips.cc/paper_files/paper/2019/file/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Paper.pdf))
 1. *An I/O Characterizing Study of Offloading LLM Models and KV Caches to NVMe SSD*----CHEOPS@EuroSys'25 ([link](https://dl.acm.org/doi/pdf/10.1145/3719330.3721230))
 
 ## Potpourri
@@ -595,5 +596,8 @@ A reading list related to storage systems, including data deduplication, erasure
 
 ### Lakehouse
 
-1. *Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics*----CIDR'21 ([link](https://15721.courses.cs.cmu.edu/spring2023/papers/02-modern/armbrust-cidr21.pdf)) [summary](https://yzr95924.uk:443/s/53927998-33ab-47fa-88ed-83d7cac088d9)
+1. *Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics*----CIDR'21 ([link](https://15721.courses.cs.cmu.edu/spring2023/papers/02-modern/armbrust-cidr21.pdf))
 2. *Shared Foundations: Modernizing Meta’s Data Lakehouse*----CIDR'23 ([link](https://mail.vldb.org/cidrdb/papers/2023/p77-chattopadhyay.pdf))
+3. *A Deep Dive into Common Open Formats for Analytical DBMSs*----VLDB'23 ([link](https://www.vldb.org/pvldb/vol16/p3044-liu.pdf))
+4. *An Empirical Evaluation of Columnar Storage Formats*----VLDB'23 ([link](https://people.iiis.tsinghua.edu.cn/~huanchen/publications/columnar-formats-vldb24.pdf))
+5. *Petabyte-Scale Row-Level Operations in Data Lakehouses*----VLDB'24 ([link](https://www.dbtsai.com/assets/pdf/2024-Petabyte-Scale_Row-Level_Operations_in_Data_Lakehouses.pdf))
