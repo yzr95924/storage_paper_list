@@ -371,12 +371,13 @@ A reading list related to storage systems, including data deduplication, erasure
 2. *Cumulus: Filesystem Backup to the Cloud*----FAST'09 ([link](https://www.usenix.org/legacy/event/fast09/tech/full_papers/vrable/vrable.pdf)) [summary](https://yzr95924.github.io/paper_summary/Cumulus-FAST'09.html)
 3. *RACS: A Case for Cloud Storage Diversity*----SoCC'10 ([link](http://pubs.0xff.co/papers/racs-socc.pdf))
 4. *The Hadoop Distributed File System*----MSST'10 ([link](http://storageconference.us/2010/Papers/MSST/Shvachko.pdf)) [summary](https://yzr95924.github.io/paper_summary/HDFS-MSST'10.html)
-5. *SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Cloud Services*----SOSP'13 ([link](https://dl.acm.org/doi/pdf/10.1145/2517349.2522730)) [summary](https://yzr95924.github.io/paper_summary/SPANStore-SOSP'13.html)
-6. *A Day Late and a Dollar Short: The Case for Research on Cloud Billing Systems*----HotCloud'14 ([link](https://rist.tech.cornell.edu/papers/billing.pdf))
-7. *CosTLO: Cost-Effective Redundancy for Lower Latency Variance on Cloud Storage Service*----NSDI'15 ([link](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-wu.pdf))
-8. *Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways*----SYSTOR'19 ([link](https://www.fsl.cs.sunysb.edu/docs/nfs4perf/kurma-systor19.pdf)) [summary](https://yzr95924.github.io/paper_summary/Kurma-SYSTOR'19.html)
-9. *Ursa: Hybrid Block Storage for Cloud-Scale Virtual Disks*----EuroSys'19 ([link](https://www.cs.jhu.edu/~huang/paper/ursa-eurosys19.pdf))
+5. *Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency*----SOSP'11 ([link](https://dl.acm.org/doi/epdf/10.1145/2043556.2043571))
+6. *SPANStore: Cost-Effective Geo-Replicated Storage Spanning Multiple Cloud Services*----SOSP'13 ([link](https://dl.acm.org/doi/pdf/10.1145/2517349.2522730)) [summary](https://yzr95924.github.io/paper_summary/SPANStore-SOSP'13.html)
+7. *A Day Late and a Dollar Short: The Case for Research on Cloud Billing Systems*----HotCloud'14 ([link](https://rist.tech.cornell.edu/papers/billing.pdf))
+8. *CosTLO: Cost-Effective Redundancy for Lower Latency Variance on Cloud Storage Service*----NSDI'15 ([link](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-wu.pdf))
+9. *Kurma: Secure Geo-Distributed Multi-Cloud Storage Gateways*----SYSTOR'19 ([link](https://www.fsl.cs.sunysb.edu/docs/nfs4perf/kurma-systor19.pdf)) [summary](https://yzr95924.github.io/paper_summary/Kurma-SYSTOR'19.html)
 10. *Duplicacy: A New Generation of Cloud Backup Tool Based on Lock-Free Deduplication*----TCC'20 ([link](https://github.com/gilbertchen/duplicacy/blob/master/duplicacy_paper.pdf)) [summary](https://yzr95924.github.io/paper_summary/Duplicacy-ToCC'20.html)
+11. *More Than Capacity: Performance-oriented Evolution of Pangu in Alibaba*----FAST'23 ([link](https://www.usenix.org/system/files/fast23-li-qiang_more.pdf))
 
 ### Consensus
 
@@ -527,6 +528,14 @@ A reading list related to storage systems, including data deduplication, erasure
 13. *Xfast: Extreme File Attribute Stat Acceleration for Lustre*----SC'23 ([link](https://dl.acm.org/doi/10.1145/3581784.3607080)) [slides](http://lustrefs.cn/wp-content/uploads/2023/11/CLUG2023_12_Emoly_Liu_Qian_Yingjin_Xfast_Extreme_File_Attribute_Stat_Acceleration_for_Lustre.pdf)
 14. *The I/O Trace Initiative: Building a Collaborative I/O Archive to Advance HPC*----SC-workshop'23 ([link](https://salkhordeh.de/publication/trace-pdsw/trace-pdsw.pdf))
 15. *Combining Buffered I/O and Direct I/O  in Distributed File Systems*----FAST'24 ([link](https://www.usenix.org/system/files/fast24-qian.pdf)) [slides](https://www.usenix.org/system/files/fast24_slides-qian.pdf) [summary](https://yzr95924.github.io/paper_summary/Lustre_BIO_DIO-FAST'24.html)
+
+## Block Storage
+
+1. *Ursa: Hybrid Block Storage for Cloud-Scale Virtual Disks*----EuroSys'19 ([link](https://dl.acm.org/doi/epdf/10.1145/3302424.3303967))
+2. *What’s the Story in EBS Glory: Evolutions and Lessons in Building Cloud Block Store*----FAST'24 ([link](https://www.usenix.org/system/files/fast24-zhang-weidong.pdf)) [summary](https://myoutline.kooldns.cn:443/s/e570c818-a7dc-4625-8311-dfe048505885)
+3. *Discard-Based Garbage Collection for Distributed Log-Structured Storage Systems in ByteDance*----FAST'26 ([link](https://www.usenix.org/system/files/fast26-bian.pdf)) [summary](https://myoutline.kooldns.cn:443/s/a7474cd7-df9f-4749-9037-ad5741c7627b)
+
+
 
 ## File System
 
