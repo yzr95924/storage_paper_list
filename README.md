@@ -586,16 +586,22 @@ A reading list related to storage systems, including data deduplication, erasure
 
 1. *Survey of Distributed File System Design Choices*----ACM TOS'22 ([link](https://dl.acm.org/doi/pdf/10.1145/3465405))
 
-## Storage + AI
-
-### AI for Storage
+## AI for Storage
 
 1. *Can Modern LLMs Tune and Configure LSM-based Key-Value Stores?*----HotStorage'24 ([link](https://asu-idi.github.io/publications/files/HS24_GPT_Project.pdf))
 
-### Storage for AI
+## Storage for AI
+
+### Vector DB
 
 1. *DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node*----NIPS'19 ([link](https://proceedings.neurips.cc/paper_files/paper/2019/file/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Paper.pdf))
+2. *Achieving Low-Latency Graph-Based Vector Search  via Aligning Best-First Search Algorithm with SSD*----OSDI'25 ([link](https://www.usenix.org/system/files/osdi25-guo.pdf))
+3. *OdinANN: Direct Insert for Consistently Stable Performance in Billion-Scale Graph-Based Vector Search*---FAST'26 ([link](https://www.usenix.org/system/files/fast26-guo.pdf))
+
+### KV Cache
+
 1. *An I/O Characterizing Study of Offloading LLM Models and KV Caches to NVMe SSD*----CHEOPS@EuroSys'25 ([link](https://dl.acm.org/doi/pdf/10.1145/3719330.3721230))
+
 
 ## Potpourri
 
