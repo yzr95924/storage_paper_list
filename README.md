@@ -600,7 +600,10 @@ A reading list related to storage systems, including data deduplication, erasure
 
 ### KV Cache
 
-1. *An I/O Characterizing Study of Offloading LLM Models and KV Caches to NVMe SSD*----CHEOPS@EuroSys'25 ([link](https://dl.acm.org/doi/pdf/10.1145/3719330.3721230))
+1. *CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving*----SIGCOMM'24 ([link](https://www-cs.stanford.edu/~keithw/sigcomm2024/sigcomm24-final1571-acmpaginated.pdf))
+2. *An I/O Characterizing Study of Offloading LLM Models and KV Caches to NVMe SSD*----CHEOPS@EuroSys'25 ([link](https://dl.acm.org/doi/pdf/10.1145/3719330.3721230))
+3. *CacheBlend: Fast Large Language Model Serving for RAG withCached Knowledge Fusion*----EuroSys'25 ([link](https://dl.acm.org/doi/pdf/10.1145/3689031.3696098))
+4. *Mooncake: Trading More Storage for Less Computation - A KVCache-centric Architecture for Serving LLM Chatbot*---FAST'25 ([link](https://www.usenix.org/system/files/fast25-qin.pdf))
 
 
 ## Potpourri
